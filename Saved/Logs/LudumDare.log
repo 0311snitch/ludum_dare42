@@ -699,3 +699,23 @@ LogInit: Object subsystem initialized
 [2018.08.11-10.46.37:310][202]LogSlate: FSceneViewport::OnFocusLost() reason 2
 [2018.08.11-10.46.37:323][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Deer" FILE="../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Character/Deer.uasset" SILENT=true
 [2018.08.11-10.46.37:343][202]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Deer1BD7E5D4486C8012C8C451BE639CE29E.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Character/Deer.uasset'
+[2018.08.11-11.03.27:430][909]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.11-11.03.27:444][909]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Deer" FILE="../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Character/Deer.uasset" SILENT=true
+[2018.08.11-11.03.27:478][909]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Deer76F327A74393D110BCFA879E7EE59910.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Character/Deer.uasset'
+[2018.08.11-11.03.28:464][936]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Deer" FILE="../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Character/Deer.uasset" SILENT=true
+[2018.08.11-11.03.28:485][936]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Deer3DBC96354BA78425D6A9899F1052AD6E.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Character/Deer.uasset'
+[2018.08.11-11.03.29:075][962]LogSlate: Window 'Deer' being destroyed
+[2018.08.11-11.03.29:083][962]LogSlate: Window 'Deer' being destroyed
+[2018.08.11-11.03.36:090][373]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Character/Deer.Deer
+[2018.08.11-11.03.38:642][503]LogSlate: Window 'Deer' being destroyed
+[2018.08.11-11.03.38:649][503]LogSlate: Window 'Deer' being destroyed
+[2018.08.11-11.03.43:838][810]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Spawner.Spawner
+[2018.08.11-11.04.44:386][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_2" FILE="../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Autosaves/Temp/Untitled_2_Auto8.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.08.11-11.04.44:397][393]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Untitled_2_Auto8BD8067C2416C7E1A943CBB86802FFB66.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Autosaves/Temp/Untitled_2_Auto8.umap'
+[2018.08.11-11.04.44:405][393]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_2' took 0.063
+[2018.08.11-11.04.44:405][393]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.063
+[2018.08.11-11.04.44:413][393]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Spawner] ([1] browsable assets)...
+[2018.08.11-11.04.44:413][393]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Spawner]
+[2018.08.11-11.04.44:435][393]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Spawner_Auto8D8FD2BC644043761ED173A9EFF019E4A.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Autosaves/Game/Blueprints/Spawner_Auto8.uasset'
+[2018.08.11-11.04.44:440][393]LogFileHelpers: Auto-saving content packages took 0.031
+[2018.08.11-11.05.18:793][416]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UKismetMathLibrary::RandomIntegerInRange' [Элемент не найден.]
