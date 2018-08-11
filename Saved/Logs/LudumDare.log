@@ -853,3 +853,4 @@ LogInit: Object subsystem initialized
 [2018.08.11-13.38.35:319][229]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall Referenced by Shape_WideCapsule
 [2018.08.11-13.38.35:319][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading NULL.
 [2018.08.11-13.38.38:293][229]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.11-13.40.15:080][479]LogSlate: Window 'Delete Assets' being destroyed
