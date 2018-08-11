@@ -854,3 +854,23 @@ LogInit: Object subsystem initialized
 [2018.08.11-13.38.35:319][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading NULL.
 [2018.08.11-13.38.38:293][229]LogSlate: Window 'Delete Assets' being destroyed
 [2018.08.11-13.40.15:080][479]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.11-13.46.10:750][579]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.022
+[2018.08.11-13.46.10:789][579]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Blueprints/Blueprint_Effect_Fire] ([1] browsable assets)...
+[2018.08.11-13.46.10:789][579]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/Blueprint_Effect_Fire]
+[2018.08.11-13.46.10:827][579]LogSavePackage: Moving '../../../../../LudumDareProject/Saved/Blueprint_Effect_Fire_Auto1905786BE4F267DE2263F9F9910621279.tmp' to '../../../../../LudumDareProject/Saved/Autosaves/Game/StarterContent/Blueprints/Blueprint_Effect_Fire_Auto1.uasset'
+[2018.08.11-13.46.10:842][579]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Blueprints/Blueprint_Effect_Smoke] ([1] browsable assets)...
+[2018.08.11-13.46.10:842][579]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/Blueprint_Effect_Smoke]
+[2018.08.11-13.46.10:864][579]LogSavePackage: Moving '../../../../../LudumDareProject/Saved/Blueprint_Effect_Smoke_Auto1B4DF935B41F89B5DE7F4928F5D5EAD48.tmp' to '../../../../../LudumDareProject/Saved/Autosaves/Game/StarterContent/Blueprints/Blueprint_Effect_Smoke_Auto1.uasset'
+[2018.08.11-13.46.10:878][579]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Blueprints/Blueprint_Effect_Sparks] ([1] browsable assets)...
+[2018.08.11-13.46.10:878][579]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/Blueprint_Effect_Sparks]
+[2018.08.11-13.46.10:936][579]LogSavePackage: Moving '../../../../../LudumDareProject/Saved/Blueprint_Effect_Sparks_Auto1DF48E68A4CF01CD520BB55AF3FC993D5.tmp' to '../../../../../LudumDareProject/Saved/Autosaves/Game/StarterContent/Blueprints/Blueprint_Effect_Sparks_Auto1.uasset'
+[2018.08.11-13.46.10:989][579]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Blueprints/Blueprint_Effect_Steam] ([1] browsable assets)...
+[2018.08.11-13.46.10:989][579]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/Blueprint_Effect_Steam]
+[2018.08.11-13.46.11:006][579]LogSavePackage: Moving '../../../../../LudumDareProject/Saved/Blueprint_Effect_Steam_Auto156C761D948DE068E060BADB2086BB6BD.tmp' to '../../../../../LudumDareProject/Saved/Autosaves/Game/StarterContent/Blueprints/Blueprint_Effect_Steam_Auto1.uasset'
+[2018.08.11-13.46.11:008][579]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Blueprints/Blueprint_CeilingLight] ([1] browsable assets)...
+[2018.08.11-13.46.11:008][579]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/Blueprint_CeilingLight]
+[2018.08.11-13.46.11:032][579]LogSavePackage: Moving '../../../../../LudumDareProject/Saved/Blueprint_CeilingLight_Auto1247C267E4B256ABCA711008906830436.tmp' to '../../../../../LudumDareProject/Saved/Autosaves/Game/StarterContent/Blueprints/Blueprint_CeilingLight_Auto1.uasset'
+[2018.08.11-13.46.11:035][579]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Blueprints/Blueprint_WallSconce] ([1] browsable assets)...
+[2018.08.11-13.46.11:035][579]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/Blueprint_WallSconce]
+[2018.08.11-13.46.11:062][579]LogSavePackage: Moving '../../../../../LudumDareProject/Saved/Blueprint_WallSconce_Auto1591E91BA49CF65AFAC1E9E9BCF5D961D.tmp' to '../../../../../LudumDareProject/Saved/Autosaves/Game/StarterContent/Blueprints/Blueprint_WallSconce_Auto1.uasset'
+[2018.08.11-13.46.11:064][579]LogFileHelpers: Auto-saving content packages took 0.313
