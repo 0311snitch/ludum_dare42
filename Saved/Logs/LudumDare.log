@@ -1,0 +1,876 @@
+﻿Log file open, 08/11/18 16:34:52
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: LudumDare
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.428354
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.188s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4233996
+LogInit: Engine Version: 4.20.1-4233996+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 620
+LogInit: Compiled (64-bit): Jul 26 2018 10:07:30
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: -EpicPortal
+LogInit: Base Directory: E:/UnrealEngine/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.08.11-13.34.53:665][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.11-13.34.53:665][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.08.11-13.34.53:690][  0]LogHAL: Display: Platform has ~ 8 GB [8485310464 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.08.11-13.34.53:690][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.08.11-13.34.53:690][  0]LogInit: Going up to parent DeviceProfile []
+[2018.08.11-13.34.53:748][  0]LogInit: Computer: DESKTOP-VRO2AJ2
+[2018.08.11-13.34.53:748][  0]LogInit: User: Kirill
+[2018.08.11-13.34.53:748][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.08.11-13.34.53:748][  0]LogInit: High frequency timer resolution =2.648436 MHz
+[2018.08.11-13.34.53:748][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.08.11-13.34.53:748][  0]LogMemory: Platform Memory Stats for Windows
+[2018.08.11-13.34.53:748][  0]LogMemory: Process Physical Memory: 100.52 MB used, 100.52 MB peak
+[2018.08.11-13.34.53:748][  0]LogMemory: Process Virtual Memory: 84.19 MB used, 84.19 MB peak
+[2018.08.11-13.34.53:748][  0]LogMemory: Physical Memory: 3953.64 MB used,  4138.58 MB free, 8092.22 MB total
+[2018.08.11-13.34.53:748][  0]LogMemory: Virtual Memory: 523.92 MB used,  4138.58 MB free, 134217728.00 MB total
+[2018.08.11-13.34.54:552][  0]LogInit: Using OS detected language (ru-RU).
+[2018.08.11-13.34.54:552][  0]LogInit: Using OS detected locale (ru-RU).
+[2018.08.11-13.34.54:553][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
+[2018.08.11-13.34.54:586][  0]LogStreaming: Display: Took  0.034s to InitEngineTextLocalization.
+[2018.08.11-13.34.54:586][  0]LogInit: Setting process to per monitor DPI aware
+[2018.08.11-13.34.54:723][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.08.11-13.34.54:723][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.08.11-13.34.57:762][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.11-13.34.57:762][  0]LogD3D11RHI: D3D11 adapters:
+[2018.08.11-13.34.57:930][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940MX' (Feature Level 11_0)
+[2018.08.11-13.34.57:930][  0]LogD3D11RHI:       2020/0/4046 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.08.11-13.34.57:944][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2018.08.11-13.34.57:944][  0]LogD3D11RHI:       128/0/4046 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.08.11-13.34.57:948][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.08.11-13.34.57:948][  0]LogD3D11RHI:       0/0/4046 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.08.11-13.34.57:948][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.08.11-13.34.57:954][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.08.11-13.34.57:954][  0]LogD3D11RHI:     GPU DeviceId: 0x134d (for the marketing name, search the web for "GPU Device Id")
+[2018.08.11-13.34.57:955][  0]LogWindows: EnumDisplayDevices:
+[2018.08.11-13.34.57:955][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2018.08.11-13.34.57:955][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.08.11-13.34.57:956][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.08.11-13.34.57:956][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.08.11-13.34.57:956][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940MX
+[2018.08.11-13.34.57:956][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.08.11-13.34.57:956][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.08.11-13.34.57:956][  0]LogRHI: Texture pool is 1414 MB (70% of 2020 MB)
+[2018.08.11-13.34.57:990][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xffffffff
+[2018.08.11-13.34.57:990][  0]LogD3D11RHI: Async texture creation enabled
+[2018.08.11-13.34.58:008][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.08.11-13.34.58:009][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../LudumDareProject/Intermediate/Shaders/WorkingDirectory/12248/).
+[2018.08.11-13.34.58:009][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/0311s/AppData/Local/Temp/UnrealShaderWorkingDir/BB2A239744538FE46AEC9AB7F6FBEFB6/'.
+[2018.08.11-13.35.00:576][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.08.11-13.35.00:599][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.08.11-13.35.00:622][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.08.11-13.35.00:645][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.08.11-13.35.00:692][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.08.11-13.35.00:718][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.08.11-13.35.00:747][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.08.11-13.35.00:780][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.08.11-13.35.00:787][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.08.11-13.35.00:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-13.35.00:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-13.35.00:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-13.35.00:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-13.35.00:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-13.35.00:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-13.35.00:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-13.35.00:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-13.35.00:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-13.35.00:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-13.35.00:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-13.35.00:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-13.35.00:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-13.35.00:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-13.35.00:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-13.35.00:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-13.35.00:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-13.35.00:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-13.35.00:966][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.08.11-13.35.01:131][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.08.11-13.35.01:131][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.08.11-13.35.01:161][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.08.11-13.35.01:161][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.08.11-13.35.01:208][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.08.11-13.35.01:228][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.08.11-13.35.01:265][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.08.11-13.35.01:301][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.08.11-13.35.01:310][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.08.11-13.35.01:310][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.08.11-13.35.01:631][  0]LogXGEController: Cleaning working directory: C:/Users/0311s/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.08.11-13.35.01:631][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.08.11-13.35.01:631][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.08.11-13.35.01:631][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.08.11-13.35.04:232][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.08.11-13.35.05:390][  0]LogDerivedDataCache: Loaded boot cache 1.16s 71MB C:/Users/0311s/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.08.11-13.35.05:391][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/0311s/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.08.11-13.35.05:391][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../LudumDareProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.08.11-13.35.05:391][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.08.11-13.35.05:391][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../LudumDareProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.08.11-13.35.05:391][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.08.11-13.35.05:410][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.08.11-13.35.05:454][  0]LogDerivedDataCache: Using Local data cache path C:/Users/0311s/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.08.11-13.35.05:454][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.08.11-13.35.05:454][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.08.11-13.35.05:477][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.08.11-13.35.05:478][  0]LogSlate: Using FreeType 2.6.0
+[2018.08.11-13.35.05:479][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.11-13.35.05:592][  0]LogAssetRegistry: FAssetRegistry took 0.0297 seconds to start up
+[2018.08.11-13.35.06:131][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.11-13.35.06:419][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.08.11-13.35.06:469][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.08.11-13.35.06:469][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.08.11-13.35.06:469][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.08.11-13.35.06:469][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.08.11-13.35.06:681][  0]LogNetVersion: LudumDare 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2823323506)
+[2018.08.11-13.35.08:369][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.137450 seconds
+[2018.08.11-13.35.08:379][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.08.11-13.35.08:379][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.08.11-13.35.08:379][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.08.11-13.35.17:575][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.08.11-13.35.17:605][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.08.11-13.35.18:139][  0]SourceControl: Source control is disabled
+[2018.08.11-13.35.18:139][  0]SourceControl: Source control is disabled
+[2018.08.11-13.35.18:179][  0]SourceControl: Source control is disabled
+[2018.08.11-13.35.18:197][  0]SourceControl: Source control is disabled
+[2018.08.11-13.35.19:178][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.08.11-13.35.19:352][  0]LogOcInput: OculusInput pre-init called
+[2018.08.11-13.35.19:551][  0]LogEngine: Initializing Engine...
+[2018.08.11-13.35.19:552][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.11-13.35.19:554][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.08.11-13.35.19:554][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.11-13.35.19:554][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.08.11-13.35.19:554][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.11-13.35.20:020][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.08.11-13.35.20:091][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.08.11-13.35.20:122][  0]LogInit: XAudio2 using 'Динамики (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.11-13.35.21:140][  0]LogInit: FAudioDevice initialized.
+[2018.08.11-13.35.21:140][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.08.11-13.35.21:363][  0]LogDerivedDataCache: Saved boot cache 0.22s 71MB C:/Users/0311s/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.08.11-13.35.21:366][  0]LogInit: Texture streaming: Enabled
+[2018.08.11-13.35.21:452][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.08.11-13.35.21:469][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={4EFF3EC2-455D-CBFF-340D-09AA50AF693D}
+[2018.08.11-13.35.21:527][  0]LogInit: Transaction tracking system initialized
+[2018.08.11-13.35.21:823][  0]BlueprintLog: New page: Editor Load
+[2018.08.11-13.35.22:345][  0]LocalizationService: Localization service is disabled
+[2018.08.11-13.35.23:311][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.08.11-13.35.23:311][  0]LogCook: Display: Mobile HDR setting 1
+[2018.08.11-13.35.23:311][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.08.11-13.35.23:311][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.08.11-13.35.23:311][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.11-13.35.23:312][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.08.11-13.35.23:312][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.11-13.35.23:626][  0]LogFileCache: Scanning file cache for directory 'E:/LudumDareProject/Content/' took 0.01s
+[2018.08.11-13.35.23:626][  0]SourceControl: Source control is disabled
+[2018.08.11-13.35.23:746][  0]LogSlate: Took 0.000284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.08.11-13.35.34:723][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2018.08.11-13.35.34:723][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.08.11-13.35.34:741][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.08.11-13.35.34:742][  0]Cmd: MAP LOAD FILE="../../../../../LudumDareProject/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.11-13.35.34:744][  0]LightingResults: New page: Lighting Build
+[2018.08.11-13.35.34:748][  0]MapCheck: New page: Map Check
+[2018.08.11-13.35.34:748][  0]LightingResults: New page: Lighting Build
+[2018.08.11-13.35.35:263][  0]LogLinker: Warning: Can't find file '/Game/UI/planeta-i-meteoritnyie-koltsa-meteorityi-yarkaya-zvezda-molniya'
+[2018.08.11-13.35.35:263][  0]LogLinker: Warning: Can't find file for asset '/Game/UI/planeta-i-meteoritnyie-koltsa-meteorityi-yarkaya-zvezda-molniya' while loading ../../../../../LudumDareProject/Content/UI/MainMenu.uasset.
+[2018.08.11-13.35.35:263][  0]LoadErrors: Error: /Game/UI/MainMenu : Can't find file for asset. /Game/UI/planeta-i-meteoritnyie-koltsa-meteorityi-yarkaya-zvezda-molniya
+[2018.08.11-13.35.35:263][  0]LogLinker: Warning: Can't find file '/Game/UI/planeta-i-meteoritnyie-koltsa-meteorityi-yarkaya-zvezda-molniya'
+[2018.08.11-13.35.35:264][  0]LogLinker: Warning: Can't find file for asset '/Game/UI/planeta-i-meteoritnyie-koltsa-meteorityi-yarkaya-zvezda-molniya' while loading ../../../../../LudumDareProject/Content/UI/MainMenu.uasset.
+[2018.08.11-13.35.35:264][  0]LoadErrors: Error: /Game/UI/MainMenu : Can't find file for asset. /Game/UI/planeta-i-meteoritnyie-koltsa-meteorityi-yarkaya-zvezda-molniya
+[2018.08.11-13.35.35:267][  0]LogLinker: Warning: Can't find file '/Game/UI/planeta-i-meteoritnyie-koltsa-meteorityi-yarkaya-zvezda-molniya'
+[2018.08.11-13.35.35:267][  0]LogLinker: Warning: Can't find file for asset '/Game/UI/planeta-i-meteoritnyie-koltsa-meteorityi-yarkaya-zvezda-molniya' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/Minimal_Default.umap.
+[2018.08.11-13.35.35:267][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/UI/planeta-i-meteoritnyie-koltsa-meteorityi-yarkaya-zvezda-molniya
+[2018.08.11-13.35.35:268][  0]LogLinker: Warning: Can't find file '/Game/UI/planeta-i-meteoritnyie-koltsa-meteorityi-yarkaya-zvezda-molniya'
+[2018.08.11-13.35.35:268][  0]LogLinker: Warning: Can't find file for asset '/Game/UI/planeta-i-meteoritnyie-koltsa-meteorityi-yarkaya-zvezda-molniya' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/Minimal_Default.umap.
+[2018.08.11-13.35.35:268][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/UI/planeta-i-meteoritnyie-koltsa-meteorityi-yarkaya-zvezda-molniya
+[2018.08.11-13.35.35:270][  0]LogLinker: Warning: Can't find file '/Game/UI/planeta-i-meteoritnyie-koltsa-meteorityi-yarkaya-zvezda-molniya'
+[2018.08.11-13.35.35:270][  0]LoadErrors: Failed to load /Game/UI/planeta-i-meteoritnyie-koltsa-meteorityi-yarkaya-zvezda-molniya.planeta-i-meteoritnyie-koltsa-meteorityi-yarkaya-zvezda-molniya Referenced by Image_0
+[2018.08.11-13.35.35:270][  0]LogLinker: Warning: Can't find file for asset '/Game/UI/planeta-i-meteoritnyie-koltsa-meteorityi-yarkaya-zvezda-molniya' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/Minimal_Default.umap.
+[2018.08.11-13.35.35:270][  0]LoadErrors: Failed to load /Game/UI/planeta-i-meteoritnyie-koltsa-meteorityi-yarkaya-zvezda-molniya.planeta-i-meteoritnyie-koltsa-meteorityi-yarkaya-zvezda-molniya Referenced by Image_0
+[2018.08.11-13.35.35:271][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/UI/planeta-i-meteoritnyie-koltsa-meteorityi-yarkaya-zvezda-molniya
+[2018.08.11-13.35.35:567][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.08.11-13.35.35:615][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.08.11-13.35.35:651][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.11-13.35.35:764][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 112,979ms to complete.
+[2018.08.11-13.35.35:764][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.022
+[2018.08.11-13.35.35:856][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.11-13.35.35:864][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.11-13.35.35:871][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.11-13.35.35:879][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.11-13.35.35:889][  0]LogCollectionManager: Loaded 0 collections in 0.001308 seconds
+[2018.08.11-13.35.35:929][  0]LogFileCache: Scanning file cache for directory 'E:/LudumDareProject/Saved/Collections/' took 0.01s
+[2018.08.11-13.35.35:929][  0]LogFileCache: Scanning file cache for directory 'E:/LudumDareProject/Content/Developers/Kirill/Collections/' took 0.01s
+[2018.08.11-13.35.35:929][  0]LogFileCache: Scanning file cache for directory 'E:/LudumDareProject/Content/Collections/' took 0.01s
+[2018.08.11-13.35.35:929][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.08.11-13.35.35:938][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2572 classes and 603 folders.
+[2018.08.11-13.35.35:944][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.08.11-13.35.36:383][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.08.11-13.35.36:387][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.08.11-13.35.36:401][  0]LogSlate: Took 0.000248 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.08.11-13.35.36:420][  0]LogSlate: Took 0.013240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.08.11-13.35.36:548][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
+[2018.08.11-13.35.36:711][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.08.11-13.35.36:712][  0]LogLoad: (Engine Initialization) Total time: 57.44 seconds
+[2018.08.11-13.35.36:712][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.08.11-13.35.36:752][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2018.08.11-13.35.36:756][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.11-13.35.36:847][  0]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.08.11-13.35.37:041][  2]LogAssetRegistry: Asset discovery search completed in 31.4717 seconds
+[2018.08.11-13.35.37:047][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.08.11-13.35.37:047][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000095 seconds (updated 0 objects)
+[2018.08.11-13.35.54:749][837]LogSlate: Window 'Message Log' being destroyed
+[2018.08.11-13.35.54:752][837]LogSlate: Window 'Message Log' being destroyed
+[2018.08.11-13.35.59:716][121]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-13.36.03:709][341]LogRenderer: Reallocating scene render targets to support 964x712 Format 10 NumSamples 1 (Frame:1311).
+[2018.08.11-13.36.12:792][663]LogSlate: Window 'New Level' being destroyed
+[2018.08.11-13.36.12:796][663]LightingResults: New page: Lighting Build
+[2018.08.11-13.36.12:797][663]MapCheck: New page: Map Check
+[2018.08.11-13.36.12:797][663]LightingResults: New page: Lighting Build
+[2018.08.11-13.36.12:821][663]LogAIModule: Creating AISystem for world Untitled
+[2018.08.11-13.36.12:825][663]LoadErrors: New page: New Map
+[2018.08.11-13.36.32:941][799]LogEditorViewport: Clicking Background
+[2018.08.11-13.36.37:006][ 31]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.11-13.37.24:570][508]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.11-13.37.24:580][508]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.08.11-13.37.34:117][751]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.11-13.37.44:216][ 44]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.11-13.37.50:016][328]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.08.11-13.37.50:056][328]LogLinker: Warning: Can't find file '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight'
+[2018.08.11-13.37.50:056][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight' while loading ../../../../../LudumDareProject/Content/StarterContent/Blueprints/BP_LightStudio.uasset.
+[2018.08.11-13.37.50:056][328]LoadErrors: Error: /Game/StarterContent/Blueprints/BP_LightStudio : Can't find file for asset. /Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight
+[2018.08.11-13.37.50:057][328]LogLinker: Warning: Can't find file '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight'
+[2018.08.11-13.37.50:057][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight' while loading ../../../../../LudumDareProject/Content/StarterContent/Blueprints/BP_LightStudio.uasset.
+[2018.08.11-13.37.50:060][328]LogLinker: Warning: Can't find file '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight'
+[2018.08.11-13.37.50:060][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/Advanced_Lighting.umap.
+[2018.08.11-13.37.50:060][328]LoadErrors: Error: /Game/StarterContent/Maps/Advanced_Lighting : Can't find file for asset. /Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight
+[2018.08.11-13.37.50:060][328]LogLinker: Warning: Can't find file '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight'
+[2018.08.11-13.37.50:061][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/Advanced_Lighting.umap.
+[2018.08.11-13.37.50:061][328]LogLinker: Warning: Can't find file '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight'
+[2018.08.11-13.37.50:061][328]LoadErrors: Failed to load /Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.HDRI_Epic_Courtyard_Daylight Referenced by Default__BP_LightStudio_C
+[2018.08.11-13.37.50:061][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/Advanced_Lighting.umap.
+[2018.08.11-13.37.50:140][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/SM_AssetPlatform'
+[2018.08.11-13.37.50:140][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/SM_AssetPlatform' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/Advanced_Lighting.umap.
+[2018.08.11-13.37.50:140][328]LoadErrors: Error: /Game/StarterContent/Maps/Advanced_Lighting : Can't find file for asset. /Game/StarterContent/Architecture/SM_AssetPlatform
+[2018.08.11-13.37.50:140][328]LogLinker: Warning: Can't find file '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight'
+[2018.08.11-13.37.50:141][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/Advanced_Lighting.umap.
+[2018.08.11-13.37.50:141][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/SM_AssetPlatform'
+[2018.08.11-13.37.50:142][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/SM_AssetPlatform' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/Advanced_Lighting.umap.
+[2018.08.11-13.37.50:142][328]LogLinker: Warning: Can't find file '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight'
+[2018.08.11-13.37.50:142][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/Advanced_Lighting.umap.
+[2018.08.11-13.37.50:146][328]LogLinker: Warning: Can't find file '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight'
+[2018.08.11-13.37.50:146][328]LoadErrors: Failed to load /Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.HDRI_Epic_Courtyard_Daylight Referenced by MaterialInstanceDynamic_84
+[2018.08.11-13.37.50:147][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight' while loading NULL.
+[2018.08.11-13.37.50:147][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/SM_AssetPlatform'
+[2018.08.11-13.37.50:147][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/SM_AssetPlatform.SM_AssetPlatform Referenced by SM_AssetPlatform_7
+[2018.08.11-13.37.50:147][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/SM_AssetPlatform' while loading NULL.
+[2018.08.11-13.37.50:316][328]LogAIModule: Creating AISystem for world Advanced_Lighting
+[2018.08.11-13.37.50:382][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.50:382][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/Minimal_Default.umap.
+[2018.08.11-13.37.50:382][328]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Architecture/Floor_400x400
+[2018.08.11-13.37.50:382][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Starter_Background_Cue'
+[2018.08.11-13.37.50:382][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Starter_Background_Cue' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/Minimal_Default.umap.
+[2018.08.11-13.37.50:382][328]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Audio/Starter_Background_Cue
+[2018.08.11-13.37.50:396][328]LogLinker: Warning: Can't find file '/Game/UI/planeta-i-meteoritnyie-koltsa-meteorityi-yarkaya-zvezda-molniya'
+[2018.08.11-13.37.50:396][328]LogLinker: Warning: Can't find file for asset '/Game/UI/planeta-i-meteoritnyie-koltsa-meteorityi-yarkaya-zvezda-molniya' while loading ../../../../../LudumDareProject/Content/UI/MainMenu.uasset.
+[2018.08.11-13.37.50:396][328]LoadErrors: Error: /Game/UI/MainMenu : Can't find file for asset. /Game/UI/planeta-i-meteoritnyie-koltsa-meteorityi-yarkaya-zvezda-molniya
+[2018.08.11-13.37.50:397][328]LogLinker: Warning: Can't find file '/Game/UI/planeta-i-meteoritnyie-koltsa-meteorityi-yarkaya-zvezda-molniya'
+[2018.08.11-13.37.50:397][328]LogLinker: Warning: Can't find file for asset '/Game/UI/planeta-i-meteoritnyie-koltsa-meteorityi-yarkaya-zvezda-molniya' while loading ../../../../../LudumDareProject/Content/UI/MainMenu.uasset.
+[2018.08.11-13.37.50:397][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Starter_Background_Cue'
+[2018.08.11-13.37.50:397][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Starter_Background_Cue' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/Minimal_Default.umap.
+[2018.08.11-13.37.50:398][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.50:398][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/Minimal_Default.umap.
+[2018.08.11-13.37.50:399][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.50:400][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.50:400][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Starter_Background_Cue'
+[2018.08.11-13.37.50:400][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Starter_Background_Cue' while loading NULL.
+[2018.08.11-13.37.50:400][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Starter_Background_Cue'
+[2018.08.11-13.37.50:400][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Starter_Background_Cue' while loading NULL.
+[2018.08.11-13.37.50:400][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.50:400][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.50:409][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Starter_Background_Cue'
+[2018.08.11-13.37.50:409][328]LoadErrors: Failed to load /Game/StarterContent/Audio/Starter_Background_Cue.Starter_Background_Cue Referenced by Starter_Background_Cue_2
+[2018.08.11-13.37.50:409][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Starter_Background_Cue' while loading NULL.
+[2018.08.11-13.37.50:410][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.50:410][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor
+[2018.08.11-13.37.50:411][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.50:411][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.50:411][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_14
+[2018.08.11-13.37.50:411][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.50:417][328]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.08.11-13.37.50:428][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Fire01_Cue'
+[2018.08.11-13.37.50:428][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Fire01_Cue' while loading ../../../../../LudumDareProject/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset.
+[2018.08.11-13.37.50:428][328]LoadErrors: Error: /Game/StarterContent/Blueprints/Blueprint_Effect_Fire : Can't find file for asset. /Game/StarterContent/Audio/Fire01_Cue
+[2018.08.11-13.37.50:465][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Fire01_Cue'
+[2018.08.11-13.37.50:465][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Fire01_Cue' while loading ../../../../../LudumDareProject/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset.
+[2018.08.11-13.37.50:466][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Fire01_Cue'
+[2018.08.11-13.37.50:466][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Fire01_Cue' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/StarterMap.umap.
+[2018.08.11-13.37.50:466][328]LoadErrors: Error: /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Audio/Fire01_Cue
+[2018.08.11-13.37.50:466][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Fire01_Cue'
+[2018.08.11-13.37.50:466][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Fire01_Cue' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/StarterMap.umap.
+[2018.08.11-13.37.50:468][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Fire01_Cue'
+[2018.08.11-13.37.50:468][328]LoadErrors: Failed to load /Game/StarterContent/Audio/Fire01_Cue.Fire01_Cue Referenced by AudioComponent_2
+[2018.08.11-13.37.50:468][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Fire01_Cue' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/StarterMap.umap.
+[2018.08.11-13.37.50:472][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Smoke01_Cue'
+[2018.08.11-13.37.50:472][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Smoke01_Cue' while loading ../../../../../LudumDareProject/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset.
+[2018.08.11-13.37.50:472][328]LoadErrors: Error: /Game/StarterContent/Blueprints/Blueprint_Effect_Smoke : Can't find file for asset. /Game/StarterContent/Audio/Smoke01_Cue
+[2018.08.11-13.37.50:476][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Smoke01_Cue'
+[2018.08.11-13.37.50:477][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Smoke01_Cue' while loading ../../../../../LudumDareProject/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset.
+[2018.08.11-13.37.50:477][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Smoke01_Cue'
+[2018.08.11-13.37.50:478][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Smoke01_Cue' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/StarterMap.umap.
+[2018.08.11-13.37.50:478][328]LoadErrors: Error: /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Audio/Smoke01_Cue
+[2018.08.11-13.37.50:478][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Smoke01_Cue'
+[2018.08.11-13.37.50:478][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Smoke01_Cue' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/StarterMap.umap.
+[2018.08.11-13.37.50:479][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Smoke01_Cue'
+[2018.08.11-13.37.50:479][328]LoadErrors: Failed to load /Game/StarterContent/Audio/Smoke01_Cue.Smoke01_Cue Referenced by AudioComponent_0
+[2018.08.11-13.37.50:480][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Smoke01_Cue' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/StarterMap.umap.
+[2018.08.11-13.37.50:484][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Fire_Sparks01_Cue'
+[2018.08.11-13.37.50:484][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Fire_Sparks01_Cue' while loading ../../../../../LudumDareProject/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset.
+[2018.08.11-13.37.50:484][328]LoadErrors: Error: /Game/StarterContent/Blueprints/Blueprint_Effect_Sparks : Can't find file for asset. /Game/StarterContent/Audio/Fire_Sparks01_Cue
+[2018.08.11-13.37.50:494][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Fire_Sparks01_Cue'
+[2018.08.11-13.37.50:494][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Fire_Sparks01_Cue' while loading ../../../../../LudumDareProject/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset.
+[2018.08.11-13.37.50:495][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Fire_Sparks01_Cue'
+[2018.08.11-13.37.50:495][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Fire_Sparks01_Cue' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/StarterMap.umap.
+[2018.08.11-13.37.50:495][328]LoadErrors: Error: /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Audio/Fire_Sparks01_Cue
+[2018.08.11-13.37.50:495][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Fire_Sparks01_Cue'
+[2018.08.11-13.37.50:495][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Fire_Sparks01_Cue' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/StarterMap.umap.
+[2018.08.11-13.37.50:496][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Fire_Sparks01_Cue'
+[2018.08.11-13.37.50:496][328]LoadErrors: Failed to load /Game/StarterContent/Audio/Fire_Sparks01_Cue.Fire_Sparks01_Cue Referenced by AudioComponent_3
+[2018.08.11-13.37.50:497][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Fire_Sparks01_Cue' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/StarterMap.umap.
+[2018.08.11-13.37.50:501][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Steam01_Cue'
+[2018.08.11-13.37.50:501][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Steam01_Cue' while loading ../../../../../LudumDareProject/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset.
+[2018.08.11-13.37.50:501][328]LoadErrors: Error: /Game/StarterContent/Blueprints/Blueprint_Effect_Steam : Can't find file for asset. /Game/StarterContent/Audio/Steam01_Cue
+[2018.08.11-13.37.50:505][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Steam01_Cue'
+[2018.08.11-13.37.50:505][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Steam01_Cue' while loading ../../../../../LudumDareProject/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset.
+[2018.08.11-13.37.50:506][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Steam01_Cue'
+[2018.08.11-13.37.50:506][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Steam01_Cue' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/StarterMap.umap.
+[2018.08.11-13.37.50:506][328]LoadErrors: Error: /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Audio/Steam01_Cue
+[2018.08.11-13.37.50:506][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Steam01_Cue'
+[2018.08.11-13.37.50:506][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Steam01_Cue' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/StarterMap.umap.
+[2018.08.11-13.37.50:507][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Steam01_Cue'
+[2018.08.11-13.37.50:507][328]LoadErrors: Failed to load /Game/StarterContent/Audio/Steam01_Cue.Steam01_Cue Referenced by AudioComponent_1
+[2018.08.11-13.37.50:507][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Steam01_Cue' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/StarterMap.umap.
+[2018.08.11-13.37.51:163][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:163][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/StarterMap.umap.
+[2018.08.11-13.37.51:163][328]LoadErrors: Error: /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Architecture/Floor_400x400
+[2018.08.11-13.37.51:163][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Wall_400x200'
+[2018.08.11-13.37.51:163][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Wall_400x200' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/StarterMap.umap.
+[2018.08.11-13.37.51:163][328]LoadErrors: Error: /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Architecture/Wall_400x200
+[2018.08.11-13.37.51:164][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Wall_Door_400x300'
+[2018.08.11-13.37.51:164][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Wall_Door_400x300' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/StarterMap.umap.
+[2018.08.11-13.37.51:164][328]LoadErrors: Error: /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Architecture/Wall_Door_400x300
+[2018.08.11-13.37.51:164][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Wall_Window_400x300'
+[2018.08.11-13.37.51:164][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Wall_Window_400x300' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/StarterMap.umap.
+[2018.08.11-13.37.51:164][328]LoadErrors: Error: /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Architecture/Wall_Window_400x300
+[2018.08.11-13.37.51:164][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Collapse_Cue'
+[2018.08.11-13.37.51:164][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse_Cue' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/StarterMap.umap.
+[2018.08.11-13.37.51:164][328]LoadErrors: Error: /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Audio/Collapse_Cue
+[2018.08.11-13.37.51:164][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Starter_Background_Cue'
+[2018.08.11-13.37.51:165][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Starter_Background_Cue' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/StarterMap.umap.
+[2018.08.11-13.37.51:165][328]LoadErrors: Error: /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Audio/Starter_Background_Cue
+[2018.08.11-13.37.51:165][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Starter_Music_Cue'
+[2018.08.11-13.37.51:165][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Starter_Music_Cue' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/StarterMap.umap.
+[2018.08.11-13.37.51:165][328]LoadErrors: Error: /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Audio/Starter_Music_Cue
+[2018.08.11-13.37.51:230][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Collapse_Cue'
+[2018.08.11-13.37.51:230][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse_Cue' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/StarterMap.umap.
+[2018.08.11-13.37.51:230][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Starter_Background_Cue'
+[2018.08.11-13.37.51:231][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Starter_Background_Cue' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/StarterMap.umap.
+[2018.08.11-13.37.51:231][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Starter_Music_Cue'
+[2018.08.11-13.37.51:231][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Starter_Music_Cue' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/StarterMap.umap.
+[2018.08.11-13.37.51:231][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:231][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/StarterMap.umap.
+[2018.08.11-13.37.51:232][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Wall_400x200'
+[2018.08.11-13.37.51:232][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Wall_400x200' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/StarterMap.umap.
+[2018.08.11-13.37.51:232][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Wall_Door_400x300'
+[2018.08.11-13.37.51:232][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Wall_Door_400x300' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/StarterMap.umap.
+[2018.08.11-13.37.51:233][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Wall_Window_400x300'
+[2018.08.11-13.37.51:233][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Wall_Window_400x300' while loading ../../../../../LudumDareProject/Content/StarterContent/Maps/StarterMap.umap.
+[2018.08.11-13.37.51:237][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:237][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:237][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Wall_400x200'
+[2018.08.11-13.37.51:238][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Wall_400x200' while loading NULL.
+[2018.08.11-13.37.51:238][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Wall_Door_400x300'
+[2018.08.11-13.37.51:238][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Wall_Door_400x300' while loading NULL.
+[2018.08.11-13.37.51:238][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Wall_Window_400x300'
+[2018.08.11-13.37.51:238][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Wall_Window_400x300' while loading NULL.
+[2018.08.11-13.37.51:238][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Collapse_Cue'
+[2018.08.11-13.37.51:238][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse_Cue' while loading NULL.
+[2018.08.11-13.37.51:238][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Starter_Background_Cue'
+[2018.08.11-13.37.51:238][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Starter_Background_Cue' while loading NULL.
+[2018.08.11-13.37.51:239][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Starter_Music_Cue'
+[2018.08.11-13.37.51:239][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Starter_Music_Cue' while loading NULL.
+[2018.08.11-13.37.51:239][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Collapse_Cue'
+[2018.08.11-13.37.51:239][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse_Cue' while loading NULL.
+[2018.08.11-13.37.51:239][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Starter_Background_Cue'
+[2018.08.11-13.37.51:239][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Starter_Background_Cue' while loading NULL.
+[2018.08.11-13.37.51:239][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Starter_Music_Cue'
+[2018.08.11-13.37.51:240][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Starter_Music_Cue' while loading NULL.
+[2018.08.11-13.37.51:240][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:240][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:240][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Wall_400x200'
+[2018.08.11-13.37.51:240][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Wall_400x200' while loading NULL.
+[2018.08.11-13.37.51:240][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Wall_Door_400x300'
+[2018.08.11-13.37.51:240][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Wall_Door_400x300' while loading NULL.
+[2018.08.11-13.37.51:241][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Wall_Window_400x300'
+[2018.08.11-13.37.51:241][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Wall_Window_400x300' while loading NULL.
+[2018.08.11-13.37.51:366][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Collapse_Cue'
+[2018.08.11-13.37.51:366][328]LoadErrors: Failed to load /Game/StarterContent/Audio/Collapse_Cue.Collapse_Cue Referenced by Collapse_Cue_2
+[2018.08.11-13.37.51:366][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Collapse_Cue' while loading NULL.
+[2018.08.11-13.37.51:367][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Starter_Background_Cue'
+[2018.08.11-13.37.51:367][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Starter_Background_Cue' while loading NULL.
+[2018.08.11-13.37.51:367][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Audio/Starter_Music_Cue'
+[2018.08.11-13.37.51:367][328]LoadErrors: Failed to load /Game/StarterContent/Audio/Starter_Music_Cue.Starter_Music_Cue Referenced by Starter_Music_Cue_5
+[2018.08.11-13.37.51:367][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Audio/Starter_Music_Cue' while loading NULL.
+[2018.08.11-13.37.51:371][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:371][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_10
+[2018.08.11-13.37.51:371][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:371][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:371][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_11
+[2018.08.11-13.37.51:371][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:371][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:372][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_12
+[2018.08.11-13.37.51:372][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:372][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:372][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_13
+[2018.08.11-13.37.51:372][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:372][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:372][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:373][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:373][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_15
+[2018.08.11-13.37.51:373][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:373][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:373][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_16
+[2018.08.11-13.37.51:373][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:373][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:374][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_17
+[2018.08.11-13.37.51:374][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:374][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:374][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_18
+[2018.08.11-13.37.51:374][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:374][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:374][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_19
+[2018.08.11-13.37.51:374][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:375][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:375][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_2
+[2018.08.11-13.37.51:375][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:375][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:375][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_20
+[2018.08.11-13.37.51:375][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:376][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:376][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_21
+[2018.08.11-13.37.51:376][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:376][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:376][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_22
+[2018.08.11-13.37.51:377][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:377][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:377][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_23
+[2018.08.11-13.37.51:377][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:377][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:377][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_24
+[2018.08.11-13.37.51:378][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:378][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:378][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_25
+[2018.08.11-13.37.51:378][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:378][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:378][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_26
+[2018.08.11-13.37.51:379][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:379][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:379][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_27
+[2018.08.11-13.37.51:379][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:379][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:379][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_28
+[2018.08.11-13.37.51:380][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:380][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:380][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_29
+[2018.08.11-13.37.51:380][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:380][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:380][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_3
+[2018.08.11-13.37.51:381][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:381][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:381][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_30
+[2018.08.11-13.37.51:381][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:381][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:382][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_31
+[2018.08.11-13.37.51:382][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:382][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:382][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_32
+[2018.08.11-13.37.51:382][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:383][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:383][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_33
+[2018.08.11-13.37.51:383][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:383][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:383][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_34
+[2018.08.11-13.37.51:383][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:384][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:384][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_35
+[2018.08.11-13.37.51:384][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:384][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:385][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_36
+[2018.08.11-13.37.51:385][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:385][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:385][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_37
+[2018.08.11-13.37.51:385][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:385][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:386][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_38
+[2018.08.11-13.37.51:386][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:386][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:386][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_39
+[2018.08.11-13.37.51:386][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:387][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:387][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_4
+[2018.08.11-13.37.51:387][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:387][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:387][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_40
+[2018.08.11-13.37.51:388][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:388][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:388][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_41
+[2018.08.11-13.37.51:388][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:388][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:389][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_42
+[2018.08.11-13.37.51:389][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:389][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:389][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_43
+[2018.08.11-13.37.51:389][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:390][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:390][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_5
+[2018.08.11-13.37.51:390][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:390][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:391][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_6
+[2018.08.11-13.37.51:391][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:391][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:391][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_7
+[2018.08.11-13.37.51:391][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:392][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:392][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_8
+[2018.08.11-13.37.51:392][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:392][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Floor_400x400'
+[2018.08.11-13.37.51:392][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400 Referenced by Floor_9
+[2018.08.11-13.37.51:393][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Floor_400x400' while loading NULL.
+[2018.08.11-13.37.51:398][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Wall_Window_400x300'
+[2018.08.11-13.37.51:398][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Wall_Window_400x300.Wall_Window_400x300 Referenced by Wall_Door_400x300_6
+[2018.08.11-13.37.51:398][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Wall_Window_400x300' while loading NULL.
+[2018.08.11-13.37.51:399][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Wall_Door_400x300'
+[2018.08.11-13.37.51:399][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Wall_Door_400x300.Wall_Door_400x300 Referenced by Wall_Door_400x301_9
+[2018.08.11-13.37.51:399][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Wall_Door_400x300' while loading NULL.
+[2018.08.11-13.37.51:399][328]LogLinker: Warning: Can't find file '/Game/StarterContent/Architecture/Wall_400x200'
+[2018.08.11-13.37.51:399][328]LoadErrors: Failed to load /Game/StarterContent/Architecture/Wall_400x200.Wall_400x200 Referenced by Wall_Door_400x302
+[2018.08.11-13.37.51:400][328]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Architecture/Wall_400x200' while loading NULL.
+[2018.08.11-13.37.51:772][328]LogAIModule: Creating AISystem for world StarterMap
+[2018.08.11-13.37.53:830][328]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.11-13.37.54:279][329]LogD3D11RHI: Error: NvAPI_D3D11_SetDepthBoundsTest(1,0.000000, 1.000000) returned error code -1. **********PLEASE UPDATE YOUR VIDEO DRIVERS*********
+[2018.08.11-13.38.04:125][527]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.11-13.38.18:474][825]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.11-13.38.18:747][825]LogParticles: Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2018.08.11-13.38.18:766][825]LogParticles: Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Ambient_Dust.P_Ambient_Dust)
+[2018.08.11-13.38.18:766][825]LogParticles: Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/Particles/P_Ambient_Dust.P_Ambient_Dust)
+[2018.08.11-13.38.18:766][825]LogParticles: Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_2 (/Game/StarterContent/Particles/P_Ambient_Dust.P_Ambient_Dust)
+[2018.08.11-13.38.18:767][825]LogParticles: Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_3 (/Game/StarterContent/Particles/P_Ambient_Dust.P_Ambient_Dust)
+[2018.08.11-13.38.23:701][ 15]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Glass'
+[2018.08.11-13.38.23:701][ 15]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Glass' while loading ../../../../../LudumDareProject/Content/StarterContent/Props/SM_Door.uasset.
+[2018.08.11-13.38.23:701][ 15]LoadErrors: Error: /Game/StarterContent/Props/SM_Door : Can't find file for asset. /Game/StarterContent/Materials/M_Glass
+[2018.08.11-13.38.23:732][ 15]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Glass'
+[2018.08.11-13.38.23:733][ 15]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Glass' while loading ../../../../../LudumDareProject/Content/StarterContent/Props/SM_Door.uasset.
+[2018.08.11-13.38.23:735][ 15]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Glass'
+[2018.08.11-13.38.23:735][ 15]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Glass.M_Glass Referenced by SM_Door
+[2018.08.11-13.38.23:735][ 15]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Glass' while loading NULL.
+[2018.08.11-13.38.23:915][ 15]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Floor'
+[2018.08.11-13.38.23:915][ 15]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Floor' while loading ../../../../../LudumDareProject/Content/StarterContent/Props/SM_Stairs.uasset.
+[2018.08.11-13.38.23:915][ 15]LoadErrors: Error: /Game/StarterContent/Props/SM_Stairs : Can't find file for asset. /Game/StarterContent/Materials/M_Basic_Floor
+[2018.08.11-13.38.23:915][ 15]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.23:915][ 15]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Props/SM_Stairs.uasset.
+[2018.08.11-13.38.23:916][ 15]LoadErrors: Error: /Game/StarterContent/Props/SM_Stairs : Can't find file for asset. /Game/StarterContent/Materials/M_Basic_Wall
+[2018.08.11-13.38.23:916][ 15]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Floor'
+[2018.08.11-13.38.23:916][ 15]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Floor' while loading ../../../../../LudumDareProject/Content/StarterContent/Props/SM_Stairs.uasset.
+[2018.08.11-13.38.23:916][ 15]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.23:916][ 15]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Props/SM_Stairs.uasset.
+[2018.08.11-13.38.23:917][ 15]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Floor'
+[2018.08.11-13.38.23:918][ 15]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Basic_Floor.M_Basic_Floor Referenced by SM_Stairs
+[2018.08.11-13.38.23:918][ 15]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Floor' while loading NULL.
+[2018.08.11-13.38.23:918][ 15]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.23:918][ 15]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall Referenced by SM_Stairs
+[2018.08.11-13.38.23:919][ 15]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading NULL.
+[2018.08.11-13.38.27:939][ 15]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.11-13.38.35:244][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:244][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Shapes/Shape_Cone.uasset.
+[2018.08.11-13.38.35:244][229]LoadErrors: Error: /Game/StarterContent/Shapes/Shape_Cone : Can't find file for asset. /Game/StarterContent/Materials/M_Basic_Wall
+[2018.08.11-13.38.35:245][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:245][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Shapes/Shape_Cone.uasset.
+[2018.08.11-13.38.35:246][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:246][229]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall Referenced by Shape_Cone
+[2018.08.11-13.38.35:246][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading NULL.
+[2018.08.11-13.38.35:250][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:250][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Shapes/Shape_Cylinder.uasset.
+[2018.08.11-13.38.35:250][229]LoadErrors: Error: /Game/StarterContent/Shapes/Shape_Cylinder : Can't find file for asset. /Game/StarterContent/Materials/M_Basic_Wall
+[2018.08.11-13.38.35:251][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:251][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Shapes/Shape_Cylinder.uasset.
+[2018.08.11-13.38.35:252][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:252][229]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall Referenced by Shape_Cylinder
+[2018.08.11-13.38.35:252][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading NULL.
+[2018.08.11-13.38.35:257][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:257][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset.
+[2018.08.11-13.38.35:257][229]LoadErrors: Error: /Game/StarterContent/Shapes/Shape_NarrowCapsule : Can't find file for asset. /Game/StarterContent/Materials/M_Basic_Wall
+[2018.08.11-13.38.35:257][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:257][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset.
+[2018.08.11-13.38.35:258][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:259][229]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall Referenced by Shape_NarrowCapsule
+[2018.08.11-13.38.35:259][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading NULL.
+[2018.08.11-13.38.35:263][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:263][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Shapes/Shape_Pipe.uasset.
+[2018.08.11-13.38.35:263][229]LoadErrors: Error: /Game/StarterContent/Shapes/Shape_Pipe : Can't find file for asset. /Game/StarterContent/Materials/M_Basic_Wall
+[2018.08.11-13.38.35:263][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:264][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Shapes/Shape_Pipe.uasset.
+[2018.08.11-13.38.35:264][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:264][229]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall Referenced by Shape_Pipe
+[2018.08.11-13.38.35:265][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading NULL.
+[2018.08.11-13.38.35:268][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:268][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Shapes/Shape_Pipe_180.uasset.
+[2018.08.11-13.38.35:268][229]LoadErrors: Error: /Game/StarterContent/Shapes/Shape_Pipe_180 : Can't find file for asset. /Game/StarterContent/Materials/M_Basic_Wall
+[2018.08.11-13.38.35:268][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:268][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Shapes/Shape_Pipe_180.uasset.
+[2018.08.11-13.38.35:269][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:269][229]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall Referenced by Shape_Pipe_180
+[2018.08.11-13.38.35:269][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading NULL.
+[2018.08.11-13.38.35:274][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:274][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Shapes/Shape_Pipe_90.uasset.
+[2018.08.11-13.38.35:274][229]LoadErrors: Error: /Game/StarterContent/Shapes/Shape_Pipe_90 : Can't find file for asset. /Game/StarterContent/Materials/M_Basic_Wall
+[2018.08.11-13.38.35:274][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:274][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Shapes/Shape_Pipe_90.uasset.
+[2018.08.11-13.38.35:275][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:275][229]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall Referenced by Shape_Pipe_90
+[2018.08.11-13.38.35:275][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading NULL.
+[2018.08.11-13.38.35:279][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:279][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Shapes/Shape_Plane.uasset.
+[2018.08.11-13.38.35:279][229]LoadErrors: Error: /Game/StarterContent/Shapes/Shape_Plane : Can't find file for asset. /Game/StarterContent/Materials/M_Basic_Wall
+[2018.08.11-13.38.35:279][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:279][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Shapes/Shape_Plane.uasset.
+[2018.08.11-13.38.35:280][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:280][229]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall Referenced by Shape_Plane
+[2018.08.11-13.38.35:280][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading NULL.
+[2018.08.11-13.38.35:283][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:283][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Shapes/Shape_Torus.uasset.
+[2018.08.11-13.38.35:283][229]LoadErrors: Error: /Game/StarterContent/Shapes/Shape_Torus : Can't find file for asset. /Game/StarterContent/Materials/M_Basic_Wall
+[2018.08.11-13.38.35:283][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:283][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Shapes/Shape_Torus.uasset.
+[2018.08.11-13.38.35:284][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:284][229]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall Referenced by Shape_Torus
+[2018.08.11-13.38.35:284][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading NULL.
+[2018.08.11-13.38.35:290][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:290][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Shapes/Shape_Trim.uasset.
+[2018.08.11-13.38.35:290][229]LoadErrors: Error: /Game/StarterContent/Shapes/Shape_Trim : Can't find file for asset. /Game/StarterContent/Materials/M_Basic_Wall
+[2018.08.11-13.38.35:290][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:290][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Shapes/Shape_Trim.uasset.
+[2018.08.11-13.38.35:291][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:291][229]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall Referenced by Shape_Trim
+[2018.08.11-13.38.35:291][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading NULL.
+[2018.08.11-13.38.35:294][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:294][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset.
+[2018.08.11-13.38.35:294][229]LoadErrors: Error: /Game/StarterContent/Shapes/Shape_Trim_90_In : Can't find file for asset. /Game/StarterContent/Materials/M_Basic_Wall
+[2018.08.11-13.38.35:294][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:294][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset.
+[2018.08.11-13.38.35:295][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:295][229]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall Referenced by Shape_Trim_90_In
+[2018.08.11-13.38.35:295][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading NULL.
+[2018.08.11-13.38.35:298][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:298][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset.
+[2018.08.11-13.38.35:298][229]LoadErrors: Error: /Game/StarterContent/Shapes/Shape_Trim_90_Out : Can't find file for asset. /Game/StarterContent/Materials/M_Basic_Wall
+[2018.08.11-13.38.35:298][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:298][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset.
+[2018.08.11-13.38.35:299][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:299][229]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall Referenced by Shape_Trim_90_Out
+[2018.08.11-13.38.35:299][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading NULL.
+[2018.08.11-13.38.35:302][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:302][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Shapes/Shape_TriPyramid.uasset.
+[2018.08.11-13.38.35:302][229]LoadErrors: Error: /Game/StarterContent/Shapes/Shape_TriPyramid : Can't find file for asset. /Game/StarterContent/Materials/M_Basic_Wall
+[2018.08.11-13.38.35:302][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:302][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Shapes/Shape_TriPyramid.uasset.
+[2018.08.11-13.38.35:303][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:303][229]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall Referenced by Shape_TriPyramid
+[2018.08.11-13.38.35:303][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading NULL.
+[2018.08.11-13.38.35:306][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:306][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Shapes/Shape_Tube.uasset.
+[2018.08.11-13.38.35:306][229]LoadErrors: Error: /Game/StarterContent/Shapes/Shape_Tube : Can't find file for asset. /Game/StarterContent/Materials/M_Basic_Wall
+[2018.08.11-13.38.35:306][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:306][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Shapes/Shape_Tube.uasset.
+[2018.08.11-13.38.35:307][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:307][229]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall Referenced by Shape_Tube
+[2018.08.11-13.38.35:307][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading NULL.
+[2018.08.11-13.38.35:310][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:311][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Shapes/Shape_Wedge_A.uasset.
+[2018.08.11-13.38.35:311][229]LoadErrors: Error: /Game/StarterContent/Shapes/Shape_Wedge_A : Can't find file for asset. /Game/StarterContent/Materials/M_Basic_Wall
+[2018.08.11-13.38.35:311][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:311][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Shapes/Shape_Wedge_A.uasset.
+[2018.08.11-13.38.35:311][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:312][229]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall Referenced by Shape_Wedge_A
+[2018.08.11-13.38.35:312][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading NULL.
+[2018.08.11-13.38.35:314][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:314][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Shapes/Shape_Wedge_B.uasset.
+[2018.08.11-13.38.35:314][229]LoadErrors: Error: /Game/StarterContent/Shapes/Shape_Wedge_B : Can't find file for asset. /Game/StarterContent/Materials/M_Basic_Wall
+[2018.08.11-13.38.35:314][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:315][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Shapes/Shape_Wedge_B.uasset.
+[2018.08.11-13.38.35:315][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:315][229]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall Referenced by Shape_Wedge_B
+[2018.08.11-13.38.35:316][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading NULL.
+[2018.08.11-13.38.35:318][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:318][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Shapes/Shape_WideCapsule.uasset.
+[2018.08.11-13.38.35:318][229]LoadErrors: Error: /Game/StarterContent/Shapes/Shape_WideCapsule : Can't find file for asset. /Game/StarterContent/Materials/M_Basic_Wall
+[2018.08.11-13.38.35:318][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:318][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading ../../../../../LudumDareProject/Content/StarterContent/Shapes/Shape_WideCapsule.uasset.
+[2018.08.11-13.38.35:319][229]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Basic_Wall'
+[2018.08.11-13.38.35:319][229]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall Referenced by Shape_WideCapsule
+[2018.08.11-13.38.35:319][229]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Basic_Wall' while loading NULL.
+[2018.08.11-13.38.38:293][229]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.11-13.40.15:080][479]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.11-13.46.10:750][579]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.022
+[2018.08.11-13.46.10:789][579]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Blueprints/Blueprint_Effect_Fire] ([1] browsable assets)...
+[2018.08.11-13.46.10:789][579]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/Blueprint_Effect_Fire]
+[2018.08.11-13.46.10:827][579]LogSavePackage: Moving '../../../../../LudumDareProject/Saved/Blueprint_Effect_Fire_Auto1905786BE4F267DE2263F9F9910621279.tmp' to '../../../../../LudumDareProject/Saved/Autosaves/Game/StarterContent/Blueprints/Blueprint_Effect_Fire_Auto1.uasset'
+[2018.08.11-13.46.10:842][579]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Blueprints/Blueprint_Effect_Smoke] ([1] browsable assets)...
+[2018.08.11-13.46.10:842][579]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/Blueprint_Effect_Smoke]
+[2018.08.11-13.46.10:864][579]LogSavePackage: Moving '../../../../../LudumDareProject/Saved/Blueprint_Effect_Smoke_Auto1B4DF935B41F89B5DE7F4928F5D5EAD48.tmp' to '../../../../../LudumDareProject/Saved/Autosaves/Game/StarterContent/Blueprints/Blueprint_Effect_Smoke_Auto1.uasset'
+[2018.08.11-13.46.10:878][579]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Blueprints/Blueprint_Effect_Sparks] ([1] browsable assets)...
+[2018.08.11-13.46.10:878][579]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/Blueprint_Effect_Sparks]
+[2018.08.11-13.46.10:936][579]LogSavePackage: Moving '../../../../../LudumDareProject/Saved/Blueprint_Effect_Sparks_Auto1DF48E68A4CF01CD520BB55AF3FC993D5.tmp' to '../../../../../LudumDareProject/Saved/Autosaves/Game/StarterContent/Blueprints/Blueprint_Effect_Sparks_Auto1.uasset'
+[2018.08.11-13.46.10:989][579]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Blueprints/Blueprint_Effect_Steam] ([1] browsable assets)...
+[2018.08.11-13.46.10:989][579]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/Blueprint_Effect_Steam]
+[2018.08.11-13.46.11:006][579]LogSavePackage: Moving '../../../../../LudumDareProject/Saved/Blueprint_Effect_Steam_Auto156C761D948DE068E060BADB2086BB6BD.tmp' to '../../../../../LudumDareProject/Saved/Autosaves/Game/StarterContent/Blueprints/Blueprint_Effect_Steam_Auto1.uasset'
+[2018.08.11-13.46.11:008][579]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Blueprints/Blueprint_CeilingLight] ([1] browsable assets)...
+[2018.08.11-13.46.11:008][579]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/Blueprint_CeilingLight]
+[2018.08.11-13.46.11:032][579]LogSavePackage: Moving '../../../../../LudumDareProject/Saved/Blueprint_CeilingLight_Auto1247C267E4B256ABCA711008906830436.tmp' to '../../../../../LudumDareProject/Saved/Autosaves/Game/StarterContent/Blueprints/Blueprint_CeilingLight_Auto1.uasset'
+[2018.08.11-13.46.11:035][579]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Blueprints/Blueprint_WallSconce] ([1] browsable assets)...
+[2018.08.11-13.46.11:035][579]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/Blueprint_WallSconce]
+[2018.08.11-13.46.11:062][579]LogSavePackage: Moving '../../../../../LudumDareProject/Saved/Blueprint_WallSconce_Auto1591E91BA49CF65AFAC1E9E9BCF5D961D.tmp' to '../../../../../LudumDareProject/Saved/Autosaves/Game/StarterContent/Blueprints/Blueprint_WallSconce_Auto1.uasset'
+[2018.08.11-13.46.11:064][579]LogFileHelpers: Auto-saving content packages took 0.313
