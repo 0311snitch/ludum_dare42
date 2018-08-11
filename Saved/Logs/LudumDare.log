@@ -1,0 +1,701 @@
+﻿Log file open, 08/11/18 11:04:18
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: LudumDare
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.230706
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  1.237s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4233996
+LogInit: Engine Version: 4.20.1-4233996+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Jul 26 2018 10:07:30
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Unreal Engine 4/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.08.11-08.04.19:990][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.11-08.04.19:990][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.08.11-08.04.20:004][  0]LogHAL: Display: Platform has ~ 8 GB [8483880960 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.08.11-08.04.20:004][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.08.11-08.04.20:004][  0]LogInit: Going up to parent DeviceProfile []
+[2018.08.11-08.04.20:004][  0]LogInit: Computer: DESKTOP-OOR5JF6
+[2018.08.11-08.04.20:004][  0]LogInit: User: SergeyPavlukov
+[2018.08.11-08.04.20:004][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.08.11-08.04.20:004][  0]LogInit: High frequency timer resolution =2.249999 MHz
+[2018.08.11-08.04.20:004][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.08.11-08.04.20:004][  0]LogMemory: Platform Memory Stats for Windows
+[2018.08.11-08.04.20:004][  0]LogMemory: Process Physical Memory: 99.74 MB used, 99.74 MB peak
+[2018.08.11-08.04.20:004][  0]LogMemory: Process Virtual Memory: 91.00 MB used, 91.00 MB peak
+[2018.08.11-08.04.20:004][  0]LogMemory: Physical Memory: 4159.05 MB used,  3931.80 MB free, 8090.86 MB total
+[2018.08.11-08.04.20:005][  0]LogMemory: Virtual Memory: 4630.39 MB used,  3931.80 MB free, 134217728.00 MB total
+[2018.08.11-08.04.20:046][  0]LogInit: Using OS detected language (ru-RU).
+[2018.08.11-08.04.20:046][  0]LogInit: Using OS detected locale (ru-RU).
+[2018.08.11-08.04.20:047][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
+[2018.08.11-08.04.20:049][  0]LogStreaming: Display: Took  0.003s to InitEngineTextLocalization.
+[2018.08.11-08.04.20:049][  0]LogInit: Setting process to per monitor DPI aware
+[2018.08.11-08.04.20:105][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.08.11-08.04.20:106][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.08.11-08.04.20:359][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.11-08.04.20:359][  0]LogD3D11RHI: D3D11 adapters:
+[2018.08.11-08.04.20:439][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.08.11-08.04.20:439][  0]LogD3D11RHI:       2019/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.08.11-08.04.20:448][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.08.11-08.04.20:448][  0]LogD3D11RHI:       128/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.08.11-08.04.20:451][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.08.11-08.04.20:451][  0]LogD3D11RHI:       0/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.08.11-08.04.20:451][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.08.11-08.04.20:472][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.08.11-08.04.20:472][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.08.11-08.04.20:472][  0]LogWindows: EnumDisplayDevices:
+[2018.08.11-08.04.20:472][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.08.11-08.04.20:473][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.08.11-08.04.20:473][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.08.11-08.04.20:473][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.08.11-08.04.20:473][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.08.11-08.04.20:473][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.08.11-08.04.20:473][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.08.11-08.04.20:473][  0]LogRHI: Texture pool is 1413 MB (70% of 2019 MB)
+[2018.08.11-08.04.20:505][  0]LogD3D11RHI: Async texture creation enabled
+[2018.08.11-08.04.20:948][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.08.11-08.04.20:950][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Intermediate/Shaders/WorkingDirectory/20936/).
+[2018.08.11-08.04.20:950][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/serge/AppData/Local/Temp/UnrealShaderWorkingDir/A66B2E5E43F12033D567C4B4A4C68A51/'.
+[2018.08.11-08.04.21:413][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.08.11-08.04.21:431][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.08.11-08.04.21:449][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.08.11-08.04.21:466][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.08.11-08.04.21:483][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.08.11-08.04.21:501][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.08.11-08.04.21:520][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.08.11-08.04.21:539][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.08.11-08.04.21:547][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.08.11-08.04.21:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-08.04.21:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-08.04.21:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-08.04.21:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-08.04.21:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-08.04.21:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-08.04.21:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-08.04.21:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-08.04.21:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-08.04.21:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-08.04.21:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-08.04.21:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-08.04.21:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-08.04.21:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-08.04.21:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-08.04.21:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-08.04.21:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-08.04.21:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.11-08.04.21:661][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.08.11-08.04.21:731][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.08.11-08.04.21:731][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.08.11-08.04.21:763][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.08.11-08.04.21:763][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.08.11-08.04.21:781][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.08.11-08.04.21:798][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.08.11-08.04.21:813][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.08.11-08.04.21:832][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.08.11-08.04.21:846][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.08.11-08.04.21:846][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.08.11-08.04.21:961][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.08.11-08.04.21:961][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.08.11-08.04.21:961][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.08.11-08.04.23:058][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.08.11-08.04.23:123][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/serge/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.08.11-08.04.23:124][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/serge/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.08.11-08.04.23:124][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/serge/Documents/Unreal Projects/LudumDare/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.08.11-08.04.23:124][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.08.11-08.04.23:124][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/serge/Documents/Unreal Projects/LudumDare/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.08.11-08.04.23:124][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.08.11-08.04.23:141][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.08.11-08.04.23:155][  0]LogDerivedDataCache: Using Local data cache path C:/Users/serge/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.08.11-08.04.23:155][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.08.11-08.04.23:155][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.08.11-08.04.23:176][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.08.11-08.04.23:177][  0]LogSlate: Using FreeType 2.6.0
+[2018.08.11-08.04.23:178][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.11-08.04.23:266][  0]LogAssetRegistry: FAssetRegistry took 0.0287 seconds to start up
+[2018.08.11-08.04.23:690][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.11-08.04.23:777][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.08.11-08.04.23:784][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.08.11-08.04.23:784][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.08.11-08.04.23:784][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.08.11-08.04.23:784][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.08.11-08.04.23:905][  0]LogNetVersion: LudumDare 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2823323506)
+[2018.08.11-08.04.24:952][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.466737 seconds
+[2018.08.11-08.04.24:960][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.08.11-08.04.24:960][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.08.11-08.04.24:960][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.08.11-08.04.26:122][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.08.11-08.04.26:149][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.08.11-08.04.26:339][  0]SourceControl: Source control is disabled
+[2018.08.11-08.04.26:339][  0]SourceControl: Source control is disabled
+[2018.08.11-08.04.26:343][  0]SourceControl: Source control is disabled
+[2018.08.11-08.04.26:345][  0]SourceControl: Source control is disabled
+[2018.08.11-08.04.26:605][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.08.11-08.04.26:675][  0]LogOcInput: OculusInput pre-init called
+[2018.08.11-08.04.26:752][  0]LogEngine: Initializing Engine...
+[2018.08.11-08.04.26:754][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.11-08.04.26:755][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.08.11-08.04.26:755][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.11-08.04.26:756][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.08.11-08.04.26:756][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.11-08.04.27:011][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.08.11-08.04.27:031][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.08.11-08.04.27:041][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.11-08.04.27:197][  0]LogInit: FAudioDevice initialized.
+[2018.08.11-08.04.27:197][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.08.11-08.04.27:845][  0]LogDerivedDataCache: Saved boot cache 0.65s 71MB C:/Users/serge/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.08.11-08.04.27:852][  0]LogInit: Texture streaming: Enabled
+[2018.08.11-08.04.27:876][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.08.11-08.04.27:894][  0]LogInit: Transaction tracking system initialized
+[2018.08.11-08.04.27:928][  0]BlueprintLog: New page: Editor Load
+[2018.08.11-08.04.28:283][  0]LocalizationService: Localization service is disabled
+[2018.08.11-08.04.28:687][  0]LogFileCache: Scanning file cache for directory 'C:/Users/serge/Documents/Unreal Projects/LudumDare/Content/' took 0.01s
+[2018.08.11-08.04.28:687][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.08.11-08.04.28:687][  0]LogCook: Display: Mobile HDR setting 1
+[2018.08.11-08.04.28:687][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.08.11-08.04.28:687][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.08.11-08.04.28:687][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.11-08.04.28:687][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.08.11-08.04.28:687][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.11-08.04.28:906][  0]SourceControl: Source control is disabled
+[2018.08.11-08.04.28:907][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.11-08.04.28:908][  0]LightingResults: New page: Lighting Build
+[2018.08.11-08.04.28:912][  0]MapCheck: New page: Map Check
+[2018.08.11-08.04.28:912][  0]LightingResults: New page: Lighting Build
+[2018.08.11-08.04.29:165][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.08.11-08.04.29:178][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.08.11-08.04.29:205][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.11-08.04.29:423][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 217,059ms to complete.
+[2018.08.11-08.04.29:423][  0]LogFileHelpers: Loading map 'Template_Default' took 0.516
+[2018.08.11-08.04.30:450][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.11-08.04.30:471][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.11-08.04.30:478][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.11-08.04.30:486][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.11-08.04.30:646][  0]LogCollectionManager: Loaded 0 collections in 0.001642 seconds
+[2018.08.11-08.04.31:023][  0]LogFileCache: Scanning file cache for directory 'C:/Users/serge/Documents/Unreal Projects/LudumDare/Saved/Collections/' took 0.01s
+[2018.08.11-08.04.31:023][  0]LogFileCache: Scanning file cache for directory 'C:/Users/serge/Documents/Unreal Projects/LudumDare/Content/Developers/SergeyPavlukov/Collections/' took 0.01s
+[2018.08.11-08.04.31:023][  0]LogFileCache: Scanning file cache for directory 'C:/Users/serge/Documents/Unreal Projects/LudumDare/Content/Collections/' took 0.01s
+[2018.08.11-08.04.31:023][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.08.11-08.04.31:087][  0]LogContentBrowser: Native class hierarchy populated in 0.0532 seconds. Added 2572 classes and 603 folders.
+[2018.08.11-08.04.31:533][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.08.11-08.04.35:808][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.08.11-08.04.36:011][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.08.11-08.04.37:776][  0]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.08.11-08.04.37:779][  0]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.08.11-08.04.37:867][  0]LogSlate: Took 0.081682 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.08.11-08.04.38:125][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
+[2018.08.11-08.04.38:661][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.08.11-08.04.38:661][  0]LogLoad: (Engine Initialization) Total time: 21.88 seconds
+[2018.08.11-08.04.38:661][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.08.11-08.04.38:681][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.08.11-08.04.38:961][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2018.08.11-08.04.47:596][513]LogAssetRegistry: Asset discovery search completed in 24.3524 seconds
+[2018.08.11-08.04.47:598][513]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.08.11-08.04.47:598][513]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000057 seconds (updated 0 objects)
+[2018.08.11-08.07.54:719][742]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.11-08.07.56:321][834]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.11-08.07.58:429][834]LogSlate: Window 'New Level' being destroyed
+[2018.08.11-08.07.58:454][834]LightingResults: New page: Lighting Build
+[2018.08.11-08.07.58:455][834]MapCheck: New page: Map Check
+[2018.08.11-08.07.58:455][834]LightingResults: New page: Lighting Build
+[2018.08.11-08.07.58:489][834]LogAIModule: Creating AISystem for world Untitled
+[2018.08.11-08.07.58:573][834]LoadErrors: New page: New Map
+[2018.08.11-08.07.58:657][836]LogEditorViewport: Clicking Background
+[2018.08.11-08.12.44:575][191]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.11-08.13.05:623][679]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.11-08.14.21:445][921]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.08.11-08.14.21:619][921]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/serge/Downloads/Cliff_tileset.png)
+[2018.08.11-08.14.21:792][921]LogTexture: Display: Building textures: Cliff_tileset (BGRA8, 503X518)
+[2018.08.11-08.14.22:070][921]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.08.11-08.14.29:189][ 70]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/serge/Downloads/ground_tiles.png)
+[2018.08.11-08.14.29:203][ 70]LogTexture: Display: Building textures: ground_tiles (BGRA8, 672X701)
+[2018.08.11-08.14.36:491][206]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/serge/Downloads/deer male calciumtrice.png)
+[2018.08.11-08.14.36:495][206]LogTexture: Display: Building textures: deer_male_calciumtrice (AutoDXT, 160X160)
+[2018.08.11-08.14.46:293][432]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/serge/Downloads/graphics-tiles-waterflow.png)
+[2018.08.11-08.14.46:299][432]LogTexture: Display: Building textures: graphics-tiles-waterflow (BGRA8, 319X293)
+[2018.08.11-08.15.09:378][754]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/serge/Downloads/object- layer.png)
+[2018.08.11-08.15.09:385][754]LogTexture: Display: Building textures: object-_layer (BGRA8, 477X219)
+[2018.08.11-08.20.40:519][188]LogRenderer: Reallocating scene render targets to support 964x460 Format 10 NumSamples 1 (Frame:2104).
+[2018.08.11-08.20.47:273][188]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.11-08.20.47:469][189]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.08.11-08.20.47:470][189]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.08.11-08.20.47:591][189]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_2' took 0.025
+[2018.08.11-08.20.47:702][189]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Cliff_tileset] ([1] browsable assets)...
+[2018.08.11-08.20.47:740][189]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Cliff_tileset.Cliff_tileset]
+[2018.08.11-08.20.47:740][189]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Cliff_tileset]
+[2018.08.11-08.20.47:978][189]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Cliff_tileset_Auto1B5EEEB54422DBF5759F922A7B9056A63.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Autosaves/Game/Textures/Cliff_tileset_Auto1.uasset'
+[2018.08.11-08.20.47:985][189]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/ground_tiles] ([1] browsable assets)...
+[2018.08.11-08.20.47:995][189]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/ground_tiles.ground_tiles]
+[2018.08.11-08.20.47:995][189]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/ground_tiles]
+[2018.08.11-08.20.48:012][189]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/ground_tiles_Auto12FF34ADC43F45127BC154CAFFBE5FCB7.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Autosaves/Game/Textures/ground_tiles_Auto1.uasset'
+[2018.08.11-08.20.48:019][189]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/deer_male_calciumtrice] ([1] browsable assets)...
+[2018.08.11-08.20.48:025][189]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/deer_male_calciumtrice.deer_male_calciumtrice]
+[2018.08.11-08.20.48:025][189]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/deer_male_calciumtrice]
+[2018.08.11-08.20.48:041][189]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/deer_male_calciumtrice_Auto1B948F31E4E4439453045CC99ACE136C2.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Autosaves/Game/Textures/deer_male_calciumtrice_Auto1.uasset'
+[2018.08.11-08.20.48:052][189]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/graphics-tiles-waterflow] ([1] browsable assets)...
+[2018.08.11-08.20.48:061][189]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/graphics-tiles-waterflow.graphics-tiles-waterflow]
+[2018.08.11-08.20.48:061][189]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/graphics-tiles-waterflow]
+[2018.08.11-08.20.48:080][189]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/graphics-tiles-waterflow_Auto10A0FDE1046A52830580B8CA5AC3E540D.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Autosaves/Game/Textures/graphics-tiles-waterflow_Auto1.uasset'
+[2018.08.11-08.20.48:087][189]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/object-_layer] ([1] browsable assets)...
+[2018.08.11-08.20.48:093][189]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/object-_layer.object-_layer]
+[2018.08.11-08.20.48:093][189]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/object-_layer]
+[2018.08.11-08.20.48:107][189]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/object-_layer_Auto1C559C59D44E35242D0D210B68F51477D.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Autosaves/Game/Textures/object-_layer_Auto1.uasset'
+[2018.08.11-08.20.48:112][189]LogFileHelpers: Auto-saving content packages took 0.519
+[2018.08.11-08.20.51:219][332]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Cliff_tileset" FILE="../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Textures/Cliff_tileset.uasset" SILENT=true
+[2018.08.11-08.20.51:264][332]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Cliff_tilesetDB6C9CF2444BC51CA38B439F5B5F92E4.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Textures/Cliff_tileset.uasset'
+[2018.08.11-08.20.52:564][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/deer_male_calciumtrice" FILE="../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Textures/deer_male_calciumtrice.uasset" SILENT=true
+[2018.08.11-08.20.52:574][388]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/deer_male_calciumtrice1830CFEB42E4794955BEB689DEEC7CDF.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Textures/deer_male_calciumtrice.uasset'
+[2018.08.11-08.20.53:816][444]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/graphics-tiles-waterflow" FILE="../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Textures/graphics-tiles-waterflow.uasset" SILENT=true
+[2018.08.11-08.20.53:842][444]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/graphics-tiles-waterflow6926E3AA42F0DA44E51BF48F5FDA7B12.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Textures/graphics-tiles-waterflow.uasset'
+[2018.08.11-08.20.55:179][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ground_tiles" FILE="../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Textures/ground_tiles.uasset" SILENT=true
+[2018.08.11-08.20.55:226][507]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/ground_tiles8455634645FE40CEAFECF989504D9DE6.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Textures/ground_tiles.uasset'
+[2018.08.11-08.20.56:505][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/object-_layer" FILE="../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Textures/object-_layer.uasset" SILENT=true
+[2018.08.11-08.20.56:523][568]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/object-_layer345ACF3A47EDD5EAF45E8B9EC3895E23.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Textures/object-_layer.uasset'
+[2018.08.11-08.51.22:870][441]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.11-08.51.30:255][588]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Textures/ground_tiles.ground_tiles
+[2018.08.11-08.51.30:309][588]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.08.11-08.51.42:773][301]LogSlate: Window 'ground_tiles' being destroyed
+[2018.08.11-08.51.42:780][301]LogSlate: Window 'ground_tiles' being destroyed
+[2018.08.11-08.51.44:765][408]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Textures/deer_male_calciumtrice.deer_male_calciumtrice
+[2018.08.11-08.51.46:945][531]LogSlate: Window 'deer_male_calciumtrice' being destroyed
+[2018.08.11-08.51.46:952][531]LogSlate: Window 'deer_male_calciumtrice' being destroyed
+[2018.08.11-08.51.51:908][825]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.11-08.51.52:014][825]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.11-08.51.52:148][825]PIE: New page: PIE session: Untitled_2 (11 авг. 2018 г., 14:51:52)
+[2018.08.11-08.51.52:164][825]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_2
+[2018.08.11-08.51.52:245][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.080841s)
+[2018.08.11-08.51.52:248][825]LogAIModule: Creating AISystem for world Untitled
+[2018.08.11-08.51.52:257][825]LogPlayLevel: PIE: World Init took: (0.011103s)
+[2018.08.11-08.51.52:257][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_2.Untitled to /Temp/UEDPIE_0_Untitled_2.Untitled (0.092456s)
+[2018.08.11-08.51.52:334][825]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.11-08.51.52:386][825]LogInit: FAudioDevice initialized.
+[2018.08.11-08.51.52:478][825]LogLoad: Game class is 'GameModeBase'
+[2018.08.11-08.51.52:647][825]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_2.Untitled up for play (max tick rate 60) at 2018.08.11-11.51.52
+[2018.08.11-08.51.52:713][825]LogWorld: Bringing up level for play took: 0.065658
+[2018.08.11-08.51.53:016][825]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 10 classes and 0 folders.
+[2018.08.11-08.51.53:207][825]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_2 1,052
+[2018.08.11-08.51.59:362][164]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.11-08.51.59:458][164]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.08.11-08.51.59:487][164]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.11-08.51.59:512][165]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2018.08.11-08.58.17:215][475]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.08.11-08.59.15:928][650]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.11-08.59.17:272][722]LogEditorViewport: Clicking Background
+[2018.08.11-08.59.53:686][894]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.11-09.01.09:730][435]LogEditorViewport: Clicking Background
+[2018.08.11-09.01.27:811][385]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.03.26:551][951]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.07.31:618][ 43]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.08.11-09.07.31:618][ 43]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.08.11-09.07.35:348][265]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Textures/ground_tiles.ground_tiles
+[2018.08.11-09.07.42:112][663]LogSlate: Window 'ground_tiles' being destroyed
+[2018.08.11-09.07.42:121][663]LogSlate: Window 'ground_tiles' being destroyed
+[2018.08.11-09.07.44:778][820]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Textures/object-_layer.object-_layer
+[2018.08.11-09.07.47:317][965]LogSlate: Window 'object-_layer' being destroyed
+[2018.08.11-09.07.47:325][965]LogSlate: Window 'object-_layer' being destroyed
+[2018.08.11-09.07.48:865][ 55]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Textures/Cliff_tileset.Cliff_tileset
+[2018.08.11-09.07.51:272][192]LogSlate: Window 'Cliff_tileset' being destroyed
+[2018.08.11-09.07.51:280][192]LogSlate: Window 'Cliff_tileset' being destroyed
+[2018.08.11-09.07.54:335][372]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Textures/graphics-tiles-waterflow.graphics-tiles-waterflow
+[2018.08.11-09.07.58:942][641]LogSlate: Window 'graphics-tiles-waterflow' being destroyed
+[2018.08.11-09.07.58:949][641]LogSlate: Window 'graphics-tiles-waterflow' being destroyed
+[2018.08.11-09.08.00:554][735]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Textures/ground_tiles.ground_tiles
+[2018.08.11-09.08.06:178][ 65]LogSlate: Window 'ground_tiles' being destroyed
+[2018.08.11-09.08.06:184][ 65]LogSlate: Window 'ground_tiles' being destroyed
+[2018.08.11-09.09.09:343][236]LogEditorViewport: Clicking Background
+[2018.08.11-09.09.12:880][443]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.09.13:124][457]LogAssetEditorManager: Opening Asset editor for PaperTileSet /Game/Textures/ground_tiles_TileSet.ground_tiles_TileSet
+[2018.08.11-09.09.13:379][457]LogSlate: Took 0.019782 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.08.11-09.10.27:543][893]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.10.28:657][955]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_2' took 0.037
+[2018.08.11-09.10.28:662][955]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/ground_tiles_TileSet] ([1] browsable assets)...
+[2018.08.11-09.10.28:672][955]OBJ SavePackage:     Rendered thumbnail for [PaperTileSet /Game/Textures/ground_tiles_TileSet.ground_tiles_TileSet]
+[2018.08.11-09.10.28:672][955]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/ground_tiles_TileSet]
+[2018.08.11-09.10.28:768][955]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/ground_tiles_TileSet_Auto21A83F6DC4238634B33F48480758BD42F.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Autosaves/Game/Textures/ground_tiles_TileSet_Auto2.uasset'
+[2018.08.11-09.10.28:773][955]LogFileHelpers: Auto-saving content packages took 0.116
+[2018.08.11-09.11.04:709][983]LogSlate: Window 'ground_tiles_TileSet*' being destroyed
+[2018.08.11-09.11.04:715][983]LogSlate: Window 'ground_tiles_TileSet*' being destroyed
+[2018.08.11-09.11.10:858][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ground_tiles_TileSet" FILE="../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Textures/ground_tiles_TileSet.uasset" SILENT=true
+[2018.08.11-09.11.10:938][320]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/ground_tiles_TileSetEBC214A947037CCB308B4CB8B9A15DAB.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Textures/ground_tiles_TileSet.uasset'
+[2018.08.11-09.11.22:571][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/object-_layer_TileSet" FILE="../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Textures/object-_layer_TileSet.uasset" SILENT=true
+[2018.08.11-09.11.22:597][996]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/object-_layer_TileSetFBA85F5147F849420ED4A78162179343.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Textures/object-_layer_TileSet.uasset'
+[2018.08.11-09.11.32:337][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Cliff_tileset_TileSet" FILE="../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Textures/Cliff_tileset_TileSet.uasset" SILENT=true
+[2018.08.11-09.11.32:392][559]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Cliff_tileset_TileSet02C2B3DD484DCBD001B27E94CFBA8DC2.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Textures/Cliff_tileset_TileSet.uasset'
+[2018.08.11-09.21.23:436][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ground_tiles_TileMap" FILE="../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Textures/ground_tiles_TileMap.uasset" SILENT=true
+[2018.08.11-09.21.23:446][398]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/ground_tiles_TileMap3293E98E4AE95BF4111529A19261AC58.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Textures/ground_tiles_TileMap.uasset'
+[2018.08.11-09.21.25:860][541]LogAssetEditorManager: Opening Asset editor for PaperTileMap /Game/Textures/ground_tiles_TileMap.ground_tiles_TileMap
+[2018.08.11-09.21.26:163][541]LogRenderer: Reallocating scene render targets to support 1168x884 Format 10 NumSamples 1 (Frame:1).
+[2018.08.11-09.22.18:871][675]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.11-09.22.18:924][675]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_2' took 0.026
+[2018.08.11-09.22.18:929][675]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Textures/ground_tiles_TileMap] ([1] browsable assets)...
+[2018.08.11-09.22.18:953][675]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/ground_tiles_TileMap]
+[2018.08.11-09.22.18:993][675]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/ground_tiles_TileMap_Auto341D2765F4B3DC028FBC4BBA19BB83E39.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Autosaves/Game/Textures/ground_tiles_TileMap_Auto3.uasset'
+[2018.08.11-09.22.18:998][675]LogFileHelpers: Auto-saving content packages took 0.073
+[2018.08.11-09.24.19:749][877]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.24.52:014][812]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.25.04:889][584]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.25.23:100][676]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.25.33:574][304]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.25.58:166][778]Cmd: TRANSACTION UNDO
+[2018.08.11-09.25.58:166][778]LogEditorTransaction: Undo Tile Painting
+[2018.08.11-09.26.51:817][974]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.27.42:138][986]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.28.05:237][371]Cmd: TRANSACTION UNDO
+[2018.08.11-09.28.05:237][371]LogEditorTransaction: Undo Tile Painting
+[2018.08.11-09.28.05:882][409]Cmd: TRANSACTION UNDO
+[2018.08.11-09.28.05:882][409]LogEditorTransaction: Undo Tile Painting
+[2018.08.11-09.28.06:348][437]Cmd: TRANSACTION UNDO
+[2018.08.11-09.28.06:348][437]LogEditorTransaction: Undo Tile Painting
+[2018.08.11-09.28.06:648][455]Cmd: TRANSACTION UNDO
+[2018.08.11-09.28.06:648][455]LogEditorTransaction: Undo Tile Painting
+[2018.08.11-09.28.06:915][471]Cmd: TRANSACTION UNDO
+[2018.08.11-09.28.06:915][471]LogEditorTransaction: Undo Tile Painting
+[2018.08.11-09.28.07:182][487]Cmd: TRANSACTION UNDO
+[2018.08.11-09.28.07:182][487]LogEditorTransaction: Undo Tile Painting
+[2018.08.11-09.28.07:448][503]Cmd: TRANSACTION UNDO
+[2018.08.11-09.28.07:448][503]LogEditorTransaction: Undo Tile Painting
+[2018.08.11-09.28.07:799][524]Cmd: TRANSACTION UNDO
+[2018.08.11-09.28.07:799][524]LogEditorTransaction: Undo Tile Painting
+[2018.08.11-09.28.08:315][555]Cmd: TRANSACTION UNDO
+[2018.08.11-09.28.08:315][555]LogEditorTransaction: Undo Tile Painting
+[2018.08.11-09.28.22:527][390]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.29.10:504][265]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.29.22:528][986]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.29.40:310][ 52]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.30.00:328][252]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.31.20:997][ 65]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.31.36:252][980]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.31.49:042][747]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.31.58:750][329]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.32.10:524][ 35]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.32.21:682][704]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.32.38:978][741]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.32.55:671][741]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.33.06:498][390]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.33.17:687][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.33.25:392][523]Cmd: TRANSACTION UNDO
+[2018.08.11-09.33.25:392][523]LogEditorTransaction: Undo Tile Painting
+[2018.08.11-09.33.27:921][674]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.33.39:645][377]Cmd: TRANSACTION UNDO
+[2018.08.11-09.33.39:645][377]LogEditorTransaction: Undo Tile Painting
+[2018.08.11-09.33.41:506][488]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.33.43:874][630]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.33.53:478][206]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.34.04:801][885]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.35.40:027][584]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.36.10:776][428]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.36.20:479][ 10]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.36.32:889][754]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.36.48:164][670]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.36.58:873][312]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.37.12:495][129]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.37.20:835][627]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.11-09.37.20:849][627]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ground_tiles_TileMap" FILE="../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Textures/ground_tiles_TileMap.uasset" SILENT=true
+[2018.08.11-09.37.20:911][627]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/ground_tiles_TileMapAD0E6F9D47521103B414E58B8DD471CA.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Textures/ground_tiles_TileMap.uasset'
+[2018.08.11-09.40.22:090][383]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-09.40.26:934][656]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.11-09.40.26:948][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ground_tiles_TileMap" FILE="../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Textures/ground_tiles_TileMap.uasset" SILENT=true
+[2018.08.11-09.40.27:008][656]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/ground_tiles_TileMap4491D24C40EB74C420BB82944A67B795.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Textures/ground_tiles_TileMap.uasset'
+[2018.08.11-09.45.29:104][728]LogSlate: Window 'ground_tiles_TileMap' being destroyed
+[2018.08.11-09.45.29:109][728]LogSlate: Window 'ground_tiles_TileMap' being destroyed
+[2018.08.11-09.45.31:677][876]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Textures/deer_male_calciumtrice.deer_male_calciumtrice
+[2018.08.11-09.45.50:901][ 20]LogSlate: Window 'deer_male_calciumtrice' being destroyed
+[2018.08.11-09.45.50:909][ 20]LogSlate: Window 'deer_male_calciumtrice' being destroyed
+[2018.08.11-09.48.09:893][131]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.08.11-09.48.23:246][433]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Spawner.Spawner
+[2018.08.11-09.48.24:340][433]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0023 seconds. Added 116 classes and 0 folders.
+[2018.08.11-09.48.39:727][749]LogSlate: Took 0.013108 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.08.11-09.49.34:619][514]LogSlate: Took 0.009770 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.08.11-09.54.48:910][836]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Spawner" FILE="../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Blueprints/Spawner.uasset" SILENT=true
+[2018.08.11-09.54.48:931][836]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/SpawnerD72A57E94AA595B3F28207BA8E59566C.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Blueprints/Spawner.uasset'
+[2018.08.11-09.55.55:137][201]LogSlate: Window 'Spawner' being destroyed
+[2018.08.11-09.55.55:145][201]LogSlate: Window 'Spawner' being destroyed
+[2018.08.11-09.56.04:086][720]Cmd: TRANSACTION UNDO
+[2018.08.11-09.56.04:086][720]LogEditorTransaction: Undo Move Node
+[2018.08.11-09.57.11:409][750]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_2' took 0.040
+[2018.08.11-09.57.11:414][750]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Spawner] ([1] browsable assets)...
+[2018.08.11-09.57.11:414][750]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Spawner]
+[2018.08.11-09.57.11:439][750]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Spawner_Auto4C7B252964CDDAB69032E74B8A3371015.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Autosaves/Game/Blueprints/Spawner_Auto4.uasset'
+[2018.08.11-09.57.11:443][750]LogFileHelpers: Auto-saving content packages took 0.033
+[2018.08.11-09.58.46:260][957]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.08.11-09.58.47:891][ 51]Cmd: TRANSACTION UNDO
+[2018.08.11-09.58.47:891][ 51]LogEditorTransaction: Undo Create Pin Link
+[2018.08.11-09.58.55:203][400]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.11-09.59.09:327][545]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.08.11-10.01.07:016][563]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.08.11-10.04.44:460][425]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-10.05.06:279][731]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-10.08.10:747][146]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_2" FILE="../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Autosaves/Temp/Untitled_2_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.08.11-10.08.10:758][146]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Untitled_2_Auto5876E8FB2496F2D6A22FF378317991AA4.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Autosaves/Temp/Untitled_2_Auto5.umap'
+[2018.08.11-10.08.10:766][146]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_2' took 0.056
+[2018.08.11-10.08.10:767][146]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.056
+[2018.08.11-10.08.10:777][146]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Spawner] ([1] browsable assets)...
+[2018.08.11-10.08.10:777][146]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Spawner]
+[2018.08.11-10.08.10:798][146]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Spawner_Auto549958FB942399AD7E9AF84AFFD4D12FA.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Autosaves/Game/Blueprints/Spawner_Auto5.uasset'
+[2018.08.11-10.08.10:806][146]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Character/Deer] ([1] browsable assets)...
+[2018.08.11-10.08.10:806][146]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/Deer]
+[2018.08.11-10.08.10:806][146]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Deer" FILE="../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Autosaves/Game/Character/Deer_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2018.08.11-10.08.10:824][146]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Deer_Auto5BCDFF6EB479876E8F3EC7A95902B4D2F.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Autosaves/Game/Character/Deer_Auto5.uasset'
+[2018.08.11-10.08.10:829][146]LogFileHelpers: Auto-saving content packages took 0.057
+[2018.08.11-10.10.29:583][184]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Character/Deer.Deer
+[2018.08.11-10.16.11:259][797]LogClass: Warning: In asset 'None', there is an enum property of type 'EPlaneConstraintAxisSetting' with an invalid value of ''
+[2018.08.11-10.16.44:016][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Deer" FILE="../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Character/Deer.uasset" SILENT=true
+[2018.08.11-10.16.44:034][ 51]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/DeerD98C1B9449515E2D7874F0A535D12354.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Character/Deer.uasset'
+[2018.08.11-10.17.11:889][955]LogSlate: Window 'Deer' being destroyed
+[2018.08.11-10.17.11:896][955]LogSlate: Window 'Deer' being destroyed
+[2018.08.11-10.17.18:064][144]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.08.11-10.17.18:314][144]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.LudumDare
+[2018.08.11-10.17.18:314][144]LogTemp: CWD: C:\Unreal Engine 4\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.08.11-10.17.18:314][144]LogTemp: Initial Dir: C:\Unreal Engine 4\UE_4.20
+[2018.08.11-10.17.18:314][144]LogTemp: Env CWD: C:\Unreal Engine 4\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.08.11-10.17.18:344][145]LogTemp: BranchPath = DESKTOP-OOR5JF6/C/Unreal Engine 4/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-OOR5JF6/C/Unreal Engine 4/UE_4.20/Engine/Binaries
+[2018.08.11-10.17.18:624][159]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\serge\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.08.11-10.22.42:312][179]LogSlate: Window 'Project Settings' being destroyed
+[2018.08.11-10.22.42:318][179]LogSlate: Window 'Project Settings' being destroyed
+[2018.08.11-10.22.43:804][265]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Character/Deer.Deer
+[2018.08.11-10.22.44:147][265]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2018.08.11-10.22.46:808][418]LogSlate: Window 'CompilerResults' being destroyed
+[2018.08.11-10.22.46:814][418]LogSlate: Window 'CompilerResults' being destroyed
+[2018.08.11-10.22.50:511][640]LogSlate: Window 'Deer' being destroyed
+[2018.08.11-10.22.50:518][640]LogSlate: Window 'Deer' being destroyed
+[2018.08.11-10.22.53:118][787]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Character/Deer.Deer
+[2018.08.11-10.22.53:421][787]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2018.08.11-10.22.56:670][972]LogSlate: Window 'CompilerResults' being destroyed
+[2018.08.11-10.22.56:676][972]LogSlate: Window 'CompilerResults' being destroyed
+[2018.08.11-10.23.05:835][521]LogSlate: Window 'Deer' being destroyed
+[2018.08.11-10.23.05:843][521]LogSlate: Window 'Deer' being destroyed
+[2018.08.11-10.23.16:697][161]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Character/Deer.Deer
+[2018.08.11-10.23.16:994][161]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2018.08.11-10.23.19:967][337]LogSlate: Window 'CompilerResults' being destroyed
+[2018.08.11-10.23.19:972][337]LogSlate: Window 'CompilerResults' being destroyed
+[2018.08.11-10.23.53:651][326]LogSlate: Window 'My Blueprint' being destroyed
+[2018.08.11-10.23.53:658][326]LogSlate: Window 'My Blueprint' being destroyed
+[2018.08.11-10.24.20:285][896]LogSlate: Window 'Blueprint Debugger' being destroyed
+[2018.08.11-10.24.20:291][896]LogSlate: Window 'Blueprint Debugger' being destroyed
+[2018.08.11-10.24.22:759][ 44]LogSlate: Window 'Deer' being destroyed
+[2018.08.11-10.24.22:762][ 44]LogSlate: Window 'Deer' being destroyed
+[2018.08.11-10.24.28:312][365]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Character/Deer.Deer
+[2018.08.11-10.24.28:623][365]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2018.08.11-10.24.32:503][592]LogSlate: Window 'CompilerResults' being destroyed
+[2018.08.11-10.24.32:509][592]LogSlate: Window 'CompilerResults' being destroyed
+[2018.08.11-10.24.35:420][766]LogSlate: Window 'Deer' being destroyed
+[2018.08.11-10.24.35:503][766]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Character/Deer.Deer
+[2018.08.11-10.26.05:445][937]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_2' took 0.039
+[2018.08.11-10.26.05:450][937]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Character/Deer] ([1] browsable assets)...
+[2018.08.11-10.26.05:450][937]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/Deer]
+[2018.08.11-10.26.05:450][937]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Deer" FILE="../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Autosaves/Game/Character/Deer_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2018.08.11-10.26.05:472][937]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Deer_Auto62AE96DBA422AB8AF8A49DE8546344D69.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Autosaves/Game/Character/Deer_Auto6.uasset'
+[2018.08.11-10.26.05:476][937]LogFileHelpers: Auto-saving content packages took 0.029
+[2018.08.11-10.26.33:743][632]LogSlate: Window 'Deer*' being destroyed
+[2018.08.11-10.26.33:749][632]LogSlate: Window 'Deer*' being destroyed
+[2018.08.11-10.27.11:215][871]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Spawner.Spawner
+[2018.08.11-10.28.10:607][408]LogSlate: Window 'Spawner*' being destroyed
+[2018.08.11-10.28.10:615][408]LogSlate: Window 'Spawner*' being destroyed
+[2018.08.11-10.30.14:565][816]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Character/Deer.Deer
+[2018.08.11-10.31.27:327][121]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-10.32.49:712][ 34]LogAssetTools: Warning: Failed to import 'C:\Users\serge\Documents\Unreal Projects\Test\Content\2DSideScroller\Sprites\Animations\Grazing.uasset'. Unknown extension 'uasset'.
+[2018.08.11-10.32.49:729][ 34]LogAssetTools: Warning: Failed to import 'C:\Users\serge\Documents\Unreal Projects\Test\Content\2DSideScroller\Sprites\Animations\Idle.uasset'. Unknown extension 'uasset'.
+[2018.08.11-10.32.49:739][ 34]LogAssetTools: Warning: Failed to import 'C:\Users\serge\Documents\Unreal Projects\Test\Content\2DSideScroller\Sprites\Animations\Walking.uasset'. Unknown extension 'uasset'.
+[2018.08.11-10.34.25:822][802]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/Animations/Grazing'
+[2018.08.11-10.34.25:822][802]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/Animations/Grazing'
+[2018.08.11-10.34.25:822][802]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/2DSideScroller/Sprites/Animations/Grazing.Grazing'
+[2018.08.11-10.34.25:823][802]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/Animations/Idle'
+[2018.08.11-10.34.25:823][802]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/Animations/Idle'
+[2018.08.11-10.34.25:823][802]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/2DSideScroller/Sprites/Animations/Idle.Idle'
+[2018.08.11-10.34.25:824][802]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/Animations/Walking'
+[2018.08.11-10.34.25:824][802]LogLinker: Warning: Can't find file '/Game/2DSideScroller/Sprites/Animations/Walking'
+[2018.08.11-10.34.25:824][802]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/2DSideScroller/Sprites/Animations/Walking.Walking'
+[2018.08.11-10.36.39:782][818]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Textures/deer_male_calciumtrice.deer_male_calciumtrice
+[2018.08.11-10.36.43:695][ 43]LogSlate: Window 'deer_male_calciumtrice' being destroyed
+[2018.08.11-10.36.43:702][ 43]LogSlate: Window 'deer_male_calciumtrice' being destroyed
+[2018.08.11-10.37.10:235][387]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.11-10.37.21:095][ 12]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Textures/deer_male_calciumtrice.deer_male_calciumtrice
+[2018.08.11-10.37.24:109][185]LogSlate: Window 'deer_male_calciumtrice' being destroyed
+[2018.08.11-10.37.24:118][185]LogSlate: Window 'deer_male_calciumtrice' being destroyed
+[2018.08.11-10.37.52:663][877]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_2' took 0.032
+[2018.08.11-10.37.52:668][877]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Character/Deer] ([1] browsable assets)...
+[2018.08.11-10.37.52:668][877]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/Deer]
+[2018.08.11-10.37.52:668][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Deer" FILE="../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Autosaves/Game/Character/Deer_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2018.08.11-10.37.52:689][877]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Deer_Auto7A99FF1D34556B77A1A6FC19E0A1D368E.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Autosaves/Game/Character/Deer_Auto7.uasset'
+[2018.08.11-10.37.52:695][877]LogFileHelpers: Auto-saving content packages took 0.030
+[2018.08.11-10.39.09:802][419]LogAssetEditorManager: Opening Asset editor for PaperSprite /Game/Sprites/Deer_idle.Deer_idle
+[2018.08.11-10.39.10:043][419]LogRenderer: Reallocating scene render targets to support 1524x884 Format 10 NumSamples 1 (Frame:1).
+[2018.08.11-10.39.49:632][779]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.11-10.39.49:655][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Deer_idle" FILE="../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Sprites/Deer_idle.uasset" SILENT=true
+[2018.08.11-10.39.49:671][779]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Deer_idle1A0AC2A6459BD2F44A1BE5841CEB6F48.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Sprites/Deer_idle.uasset'
+[2018.08.11-10.39.50:929][854]LogSlate: Window 'Deer_idle' being destroyed
+[2018.08.11-10.39.50:937][854]LogSlate: Window 'Deer_idle' being destroyed
+[2018.08.11-10.39.58:435][301]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Character/Deer.Deer
+[2018.08.11-10.40.41:335][686]LogSlate: Window 'Deer*' being destroyed
+[2018.08.11-10.40.41:340][686]LogSlate: Window 'Deer*' being destroyed
+[2018.08.11-10.40.45:586][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Deer" FILE="../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Character/Deer.uasset" SILENT=true
+[2018.08.11-10.40.45:606][919]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/DeerB3242DFD467C031301BC37AB763FC30F.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Character/Deer.uasset'
+[2018.08.11-10.40.56:303][540]LogAssetEditorManager: Opening Asset editor for PaperFlipbook /Game/Animations/Deer_ilde.Deer_ilde
+[2018.08.11-10.41.33:430][386]LogSlate: Window 'Deer_ilde*' being destroyed
+[2018.08.11-10.41.33:436][386]LogSlate: Window 'Deer_ilde*' being destroyed
+[2018.08.11-10.41.38:925][511]LogSlate: Window 'Delete Assets' being destroyed
+[2018.08.11-10.41.44:096][817]LogAssetEditorManager: Opening Asset editor for PaperSprite /Game/Sprites/Deer_idle.Deer_idle
+[2018.08.11-10.43.00:921][366]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.11-10.43.00:943][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Deer_idle" FILE="../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Sprites/Deer_idle.uasset" SILENT=true
+[2018.08.11-10.43.00:963][366]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Deer_idleA8DB12D04F35EB3BA6EB3AB5456CCE78.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Sprites/Deer_idle.uasset'
+[2018.08.11-10.43.01:872][420]LogSlate: Window 'Deer_idle' being destroyed
+[2018.08.11-10.43.01:879][420]LogSlate: Window 'Deer_idle' being destroyed
+[2018.08.11-10.43.06:712][707]LogAssetEditorManager: Opening Asset editor for PaperFlipbook /Game/Animations/Deer_ilde.Deer_ilde
+[2018.08.11-10.43.10:377][920]LogSlate: Window 'Deer_ilde*' being destroyed
+[2018.08.11-10.43.10:382][920]LogSlate: Window 'Deer_ilde*' being destroyed
+[2018.08.11-10.43.12:350][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Deer_ilde" FILE="../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Animations/Deer_ilde.uasset" SILENT=true
+[2018.08.11-10.43.12:363][ 18]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Deer_ilde5C683FEB4D04FB844072BC9FAEA81148.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Animations/Deer_ilde.uasset'
+[2018.08.11-10.43.44:873][966]LogEditorViewport: Clicking Background
+[2018.08.11-10.43.56:793][680]LogEditorViewport: Clicking on Actor (LMB): Spawner_C (Spawner)
+[2018.08.11-10.44.02:358][ 12]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-10.44.05:374][192]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Spawner.Spawner
+[2018.08.11-10.44.48:031][724]LogSlate: Window 'Spawner*' being destroyed
+[2018.08.11-10.44.48:039][724]LogSlate: Window 'Spawner*' being destroyed
+[2018.08.11-10.44.51:595][929]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Character/Deer.Deer
+[2018.08.11-10.45.01:342][482]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Deer" FILE="../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Character/Deer.uasset" SILENT=true
+[2018.08.11-10.45.01:365][482]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Deer546A3C324940488C56F9858CC3F1E1DC.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Character/Deer.uasset'
+[2018.08.11-10.45.12:180][126]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-10.45.38:898][716]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-10.46.15:169][884]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.11-10.46.37:310][202]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.11-10.46.37:323][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Deer" FILE="../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Character/Deer.uasset" SILENT=true
+[2018.08.11-10.46.37:343][202]LogSavePackage: Moving '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Saved/Deer1BD7E5D4486C8012C8C451BE639CE29E.tmp' to '../../../../../Users/serge/Documents/Unreal Projects/LudumDare/Content/Character/Deer.uasset'
